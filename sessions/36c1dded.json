@@ -1,0 +1,62 @@
+{
+  "session_id": "36c1dded",
+  "created_at": "2026-03-28T19:16:02.168866+00:00",
+  "status": "active",
+  "jd_data": {
+    "role": "Data Structures Engineer",
+    "difficulty_level": "hard",
+    "topics": [
+      "Arrays and Strings",
+      "Linked Lists",
+      "Trees and Graphs"
+    ],
+    "weights": {
+      "Arrays and Strings": 4,
+      "Linked Lists": 4,
+      "Trees and Graphs": 5
+    },
+    "subtopics": {
+      "Arrays and Strings": [
+        "Dynamic Array Implementation",
+        "String Matching Algorithms",
+        "Subarray Searching"
+      ],
+      "Linked Lists": [
+        "Singly Linked List Implementation",
+        "Doubly Linked List Implementation",
+        "Circular Linked List"
+      ],
+      "Trees and Graphs": [
+        "Binary Search Tree Implementation",
+        "Heap Data Structure",
+        "Graph Traversal Algorithms"
+      ]
+    }
+  },
+  "topic": "Data Structures Engineer",
+  "topics": [
+    "Arrays and Strings",
+    "Linked Lists",
+    "Trees and Graphs"
+  ],
+  "max_questions": 10,
+  "scenario_mode": "both",
+  "difficulty": "hard",
+  "history": [],
+  "questions_asked": [],
+  "answers": [],
+  "evaluations": [],
+  "fingerprint_history": [],
+  "difficulty_history": [],
+  "scores": [],
+  "current_question": "",
+  "current_index": 0,
+  "fingerprint": {},
+  "weak_areas": [],
+  "mentor_conversation": [],
+  "mentor_attempts": 0,
+  "mentor_focus": "",
+  "socratic_history": [],
+  "rag_context": null,
+  "pdf_used": false
+}

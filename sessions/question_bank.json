@@ -1,0 +1,292 @@
+{
+  "trees_and_graphs": [
+    "Suppose you are given a set of nodes to build a Minimum Spanning Tree (MST). Describe the initial set of edges to consider for inclusion in the MST, assuming all edges have a non-negative weight.",
+    "What would be the primary difference in your approach to finding a Minimum Spanning Tree if you were given a graph with weighted and unweighted edges compared to a graph with only weighted edges, and how would you ensure the correctness of your MST algorithm in the new scenario?",
+    "Given a Min-Heap data structure implementation, how would you verify that the heap property holds true after insertion and deletion of nodes, assuming the current implementation might introduce bugs due to its incomplete understanding of heap property?",
+    "Suppose a graph has millions of edges, which graph traversal algorithm would you choose for a traversal operation, and how would you verify the correctness of your choice?",
+    "If running a depth-first traversal on a graph, how would you verify the correct implementation, given an edge case where the graph contains multiple disconnected subtrees with varying levels of depth?",
+    "Describe a real-world edge case where a binary heap data structure might be less scalable than a hash-based data structure, and how you would optimize it to maintain good scalability.",
+    "Given a nearly balanced binary search tree with 1000 nodes where each node's value is a random integer between 0 and 1000, what steps would you take to verify that the tree's balance factor remains within a reasonable range (e.g., -1 to 1), and how would you handle a situation where the balance factor falls outside this range?",
+    "Design a graph traversal algorithm to visit all connected components in a graph, and describe the steps you would take to implement it with a code example.",
+    "How would you verify that a binary tree has been correctly traversed, comparing the results of an in-order traversal, pre-order traversal, and post-order traversal?",
+    "Suppose a malicious node is inserting fake edges into our graph while we're traversing it. How would you verify that your graph traversal algorithm is still correctly identifying all connected components in this modified graph?",
+    "Suppose you are given an undirected graph, how would you derive a minimum spanning tree from this graph using only basic principles and data structures you've learned about?",
+    "You are implementing a binary search tree (BST) with keys in the set {1, 2, 3, 4, 5} that should support efficient insertion of new keys. Given that a new key 3 is about to be inserted into the current BST which has a left child and right child both with keys greater than the root key (1), walk through your reasoning on how this new key can be inserted into the tree without violating the BST's property.",
+    "Given a binary search tree (BST), how would you verify that it indeed follows the BST property without traversing its entire structure?",
+    "Assuming a max heap data structure, what's the most effective approach to prevent a denial-of-service attack by a malicious user inserting a large number of elements?",
+    "How would you design a real-world system to verify the integrity of a graph traversal algorithm, especially when dealing with incomplete or incorrectly implemented edge data?",
+    "How would you design a simple test case to verify the correctness of Breadth-First Search (BFS) traversal in a graph when dealing with disconnected components at the scalability level of 1000 vertices?",
+    "Compare and contrast the benefits of using a self-balancing binary search tree versus a simple binary search tree, considering factors like time complexity, space complexity, and implementation difficulty. How would you verify that your choice is correct?",
+    "A malicious agent attempts to inject a large number of nodes into a min-heap implemented in your system for a security-related task. What steps would you take to ensure this attack is detected, and how would you verify the effectiveness of your approach?",
+    "Suppose a web crawler needs to traverse a social media graph to identify influential users. You're given a Breadth-First Search (BFS) implementation that seems to be missing a critical step. Walk through your reasoning on how you would verify the correctness and efficiency of the BFS implementation in this context.",
+    "For a graph traversal algorithm, if you're given a large but sparse graph where edges are randomly inserted or removed frequently, how would you verify that your chosen traversal strategy remains efficient?",
+    "For a graph traversal algorithm, if the graph has a few nodes with identical values, and we only have the node's values for traversal, what steps would you take to verify that your algorithm does not get stuck in an infinite loop?",
+    "Can you explain Binary Search Tree and why it matters in practice?",
+    "How would you verify that your implementation of a binary heap supports efficient heapification of an array, considering edge cases and the time complexity of your algorithm?",
+    "From a debugging perspective, compare and contrast inorder and preorder traversal algorithms in a Binary Search Tree. How would you verify their correctness?",
+    "Assuming you're implementing a Binary Search Tree with automatic balancing using left and right rotations, describe how you'd verify that the insertion of a new node triggers the correct balancing operation when dealing with edge cases like an unbalanced left subtree or a node with two children that would cause an imbalance upon insertion.",
+    "Imagine you are debugging a Binary Search Tree implementation. How would you verify that the tree remains a valid BST after a series of insert operations, assuming the tree starts off as empty?",
+    "Suppose you're implementing breadth-first traversal on a graph represented as an adjacency list. From a debugging perspective, how would you verify that the order of visited nodes is correct?",
+    "If you're building a highway system in a new city and want to connect all neighborhoods with minimum road construction, what would be the first step in creating a Minimum Spanning Tree for this network?",
+    "For a real-world Minimum Spanning Tree implementation in a network with millions of vertices and edges, how would you verify that your solution is providing the optimal tree structure before deploying it into production?"
+  ],
+  "data_engineering": [
+    "Walk through your first-principles reasoning on designing an ETL pipeline in Databricks, considering the characteristics of supply chain data, and justify your approach.",
+    "How would you verify that your PySpark ETL pipeline is correctly handling missing values and outliers in the supply chain data, and explain the reasoning behind your approach?",
+    "What adjustments would you make to the PySpark ETL pipeline from your supply chain data project if you needed to handle an unexpected surge in data ingestion, and how would you verify that your modifications improve the robustness of the pipeline?",
+    "Given the use of Databricks and PySpark in your previous project on supply chain disruption and demand forecasting, compare and contrast Databricks' ELT workflows with Azure's data pipeline architecture, justifying your reasoning in terms of scalability and data quality monitoring.",
+    "Given your experience with Databricks and PySpark in supply chain disruption and demand forecasting, how would you verify that your ELT workflow is correctly handling large-scale multi-source data without causing data quality issues, and what metrics would you use to evaluate its performance?",
+    "If you were to design an ETL pipeline on Databricks for large-scale supply chain data, how would you verify the correctness of the ETL workflow to ensure that the transformed data is accurate and reliable?",
+    "If you were designing an ETL pipeline for the supply chain data on Databricks, how would you start from first principles to ensure data integrity and pipeline reliability, considering you've optimized query performance using partitioning strategies and caching in your previous project?",
+    "How would you verify the correctness of a job in a Spark cluster, especially when it involves complex data processing and transformations for supply chain analytics? Start from first principles and consider the importance of data integrity, pipeline reliability, and scalability in your answer."
+  ],
+  "industrial_automation": [
+    "Debug this simple Python function that simulates a basic PLC (Programmable Logic Controller) using a state machine, given the provided scenario: The PLC controls a lighting system in a factory with three states (off, on, blinking). What could go wrong if the PLC's state transitions are not properly synchronized?",
+    "When designing a SCADA system for remote monitoring of industrial equipment in a large plant, from first principles, what steps would you take to ensure that your system can accurately detect and report equipment anomalies, assuming your dataset is incomplete and noisy, and walk through your reasoning."
+  ],
+  "industrial_computer": [
+    "Debug this industrial computer code in a PLC (Programmable Logic Controller) that is supposed to blink a LED light according to a 3-second on, 2-second off timer, and a 5-second transition duration between states: if (led_state == 'on') { delay(3000); led_state = 'off'; delay(2000); } else if (led_state == 'off') { delay(5000); led_state = 'on'; delay(3000); }."
+  ],
+  "speech_system": [
+    "What if a student's voice input is misinterpreted by the speech-to-text (STT) system, affecting the Reasoning Fingerprint's accuracy, and how would you handle this edge case?"
+  ],
+  "linked_lists": [
+    "If a user can insert and delete nodes from the middle of a doubly linked list from the security perspective, describe the operations you would implement to prevent data integrity issues and ensure that the list remains valid.",
+    "Describe the key components and steps required to implement a basic circular linked list, considering the unique constraints and implications of a circular structure compared to a standard linked list, and how would you verify the correctness of your implementation?",
+    "What trade-offs would you make between using a statically-typed versus dynamically-typed language when implementing a doubly linked list, and how would you verify the correctness of your implementation?",
+    "Consider a circular linked list where each node has a reference to the next node and a circular reference back to a fixed 'head' node. How would you verify that traversing the circular linked list returns to the original 'head' node, assuming you have a function to print the node values and no explicit loop detection mechanism?",
+    "If you were troubleshooting a doubly linked list implementation where elements are being deleted but not correctly updated, how would you verify that the deletion operation is correctly handled?",
+    "In a doubly linked list, you need to insert a new node at the beginning. Describe the trade-offs between creating a new node with existing node references versus updating node references in adjacent nodes.",
+    "Given a circular linked list, if you remove a node and forget to update the 'prev' pointer of its successor, what edge case would result in incorrect output?",
+    "Suppose you need to delete a node in a singly linked list without having its previous node reference. How would you verify that your deletion logic works correctly?",
+    "In a doubly linked list implementation, if a new node is added to the middle and the nodes on either side have large values, but the node to be inserted has a much smaller value, what steps would you take to verify that the linked list is correctly updated to accommodate this insertion at the middle position?",
+    "When handling the deletion of a node in a singly linked list, walk through your reasoning on how to avoid a scenario where you accidentally delete the wrong node, considering the list might be modified concurrently by another thread?",
+    "In a circular linked list, if you encounter a node that has a node ID matching the head node, how would you verify that this node is a true circular reference rather than a duplicated head node?",
+    "What steps would you take to implement a singly linked list deletion method, starting from first principles and considering potential errors in handling edge cases?",
+    "You are debugging a Doubly Linked List implementation and notice that insertions at the beginning are causing null pointer errors. Walk through your verification process to confirm if the implementation is correct or not.",
+    "For a circular linked list, explain how would you verify that your implementation correctly handles insertions and deletions at the last node, taking into account the wrap-around edge case?",
+    "Explain how you would identify and address a common error in implementing a circular linked list, assuming you've made an implementation mistake leading to incorrect node removals, and justify your approach with potential code snippets.",
+    "Consider a Linked List with a cycle of length 5. How would you verify that a cycle detection algorithm is working correctly for this edge case?",
+    "Design a doubly linked list node implementation and walk through your reasoning on how you would verify that a node is properly inserted into the list."
+  ],
+  "concurrency_control": [
+    "Explain how the concept of 'dirty read' differs from 'non-repeatable read', and provide an example scenario for each to demonstrate their effects when using transaction isolation levels.",
+    "How would you verify if a transaction uses strict isolation, without executing the transaction itself, but rather by analyzing its schema and query plan?"
+  ],
+  "query_optimization": [
+    "You've heard about a query that's experiencing performance issues due to a missing index. Describe how you would determine which index to create, and what verification steps you would take to ensure the chosen index improves query performance."
+  ],
+  "database_design": [
+    "When designing a database for a large e-commerce application, how would you verify the level of data normalization if a customer can purchase different items at various frequencies during their shopping history?",
+    "Suppose you're applying ER modeling to design a database for an online library system where users can borrow and return books. Explain how you would verify the cardinality of a relationship between 'borrower' and 'book', such that you can confirm there is at most one 'book' per 'borrower'? What steps would you consider when verifying the correctness of this cardinality?"
+  ],
+  "ni_instrument_control": [
+    "If an NI-DAQmx task's buffer is set to be 8KB, how would you ensure that the LabVIEW code accessing this task does not inadvertently read or write beyond the allocated buffer limits, potentially compromising system security?"
+  ],
+  "industrial_automation_systems": [
+    "Suppose you're tasked with implementing a real-time water level monitoring SCADA system. To ensure data integrity and accuracy, how would you verify that the system is logging water level data correctly?"
+  ],
+  "labview_programming": [
+    "In a LabVIEW-based industrial automation project, how would you approach verifying the correctness of error handling mechanisms, considering potential sources of error and ensuring comprehensive testing?"
+  ],
+  "machine_learning": [
+    "Imagine you're deploying a Deep Learning model in an industrial setting, but one of your team members points out a potential security vulnerability in the model's architecture. Walk through your reasoning for how you would handle this situation.",
+    "In an object detection model, if you're using a pre-trained YOLOv8 model and it occasionally misclassifies certain objects, how would you verify that the issue is indeed due to the model's architecture rather than the input data or environment?",
+    "If you're implementing a YOLOv8-based object detection model for an industrial setting, how would you verify that the temperature fluctuations in a manufacturing facility during the deployment of the model do not impact its accuracy in tracking objects, considering potential correlations between environmental and computational factors?",
+    "You're implementing a deep learning-based anomaly detection model as part of a smart factory's OT security system. How would you go about verifying the model's accuracy in alerting potential security threats from industrial automation data, considering you're underconfident in its performance?",
+    "For a binary classification model where you're underconfident about your accuracy, explain the thought process you'd undertake to evaluate the model's performance, starting from the first principles.",
+    "From a debugging perspective, assuming the CCA algorithm is not correctly separating frequency components in real-time due to an unknown cause, how would you verify if the cause is related to an issue with the hardware partition backlight (e.g., inconsistent LED brightness control, cross-partition light leakage) or a software algorithmic problem (e.g., incorrect frequency component extraction) in the PB-SSVEP system?",
+    "A customer support AI model you designed uses pre-trained CNNs for image classification. It suddenly starts misclassifying some signs of the Indian Sign Language (ISL), which is similar to the sign language model you built in the past. Walk through your reasoning to identify the possible cause of this unexpected behavior."
+  ],
+  "automation": [
+    "If you're developing a real-time temperature monitoring system for an industrial setting using an Arduino Uno, how would you verify the accuracy of the temperature readings in the absence of a direct reference thermometer, considering potential sources of measurement error in the system?",
+    "You have the task of migrating an existing industrial automation setup to a more secure solution. Describe how you would start from first principles to ensure that the new system does not introduce any potential backdoors or security flaws, and what specific trade-offs you would need to consider in the migration process.",
+    "Suppose you're designing an automated embedded system for a small manufacturing unit to monitor and control temperature, pressure, and humidity levels in real-time. From first principles, describe how you would ensure data consistency and integrity across the system's multiple sensors and data transmission units during a potential network outage."
+  ],
+  "computer_vision": [
+    "Compare and contrast the efficiency of real-time accident detection in video streams when implementing YOLOv8 versus a traditional computer vision-based approach using object detection algorithms like Haar cascades. Justify your comparison with examples from real-world applications, and consider the trade-offs in terms of computational resources and accuracy.",
+    "For image preprocessing, how would you verify that the resizing operation doesn't introduce any new attacks from the security angle in the context of object detection?",
+    "In a real-world industrial automation setting, what-if an edge camera was used to detect defects on a conveyor belt, and the image processing pipeline involves converting RGB images to grayscale, followed by a thresholding operation - how would you choose an optimal threshold value for this process?"
+  ],
+  "data_security": [
+    "Suppose you're designing a new data security protocol for a manufacturing plant and one of its features is to alert supervisors of potential security incidents in real-time; starting from first principles, how would you define what constitutes a 'potential security incident' using only the data available from the IoT sensors and industrial control systems?",
+    "How would you configure network segmentation within a factory's OT system to isolate sensitive industrial control systems from the rest of the network, considering the potential risks of uncontrolled lateral movement in case of a security incident?"
+  ],
+  "real_time_systems": [
+    "Given an Industrial Process Control System, how would you verify that a PLC (Programmable Logic Controller) program is operating within its designated constraints, using only the data available from the IoT sensors, and considering you're underconfident in its real-time performance?",
+    "Design an edge-case handling system for a temperature monitoring system in a Real Time Systems context where a sensor failure results in a -40\u00b0C reading, and your system must alert the user within a 2-second deadline."
+  ],
+  "model_optimization": [
+    "A model optimizer you're using for quantization requires a certain ratio of dynamic to static quantization. Can you explain your approach for determining this optimal ratio for a given model, and propose an edge-case where this approach might fail?",
+    "Imagine you're applying knowledge distillation to a pre-trained model used for sentence classification tasks. If the teacher model's loss value exceeds three standard deviations above the mean, what steps would you take to investigate and validate whether the loss increase is a result of model degradation or an unforeseen edge-case?",
+    "Design a system to dynamically adjust regularization strengths for a large-scale neural network deployed in a data-center environment to prevent overfitting while maintaining computational efficiency."
+  ],
+  "text_embeddings": [
+    "What if you're developing a text embedding model using Byte Pair Encoding, but you only have access to a small subset of the data initially; how would you justify your design choice for implementing BPE in this incomplete data context?",
+    "Imagine you're implementing a Word2Vec model, how would you verify that your model's word embeddings capture the correct semantic meaning of a word?",
+    "If you're implementing Byte Pair Encoding for text embeddings, how would you verify that the optimal vocabulary size is achieved given a specific training data set, without relying on heuristics or trial-and-error?"
+  ],
+  "predictive_modeling": [
+    "For a regression model predicting house prices, describe an edge case scenario where the model would produce an implausibly high or low prediction, and discuss how you would handle this situation.",
+    "Design a Random Forest model to predict the likelihood of supply chain disruptions based on historical data, specifying how you'd verify the model's performance without overfitting to the historical data."
+  ],
+  "data_science": [
+    "Considering you're working with a dataset containing thousands of rows, describe how would you verify the accuracy of a Data Science pipeline without resorting to overfitting the model to the historical data while ensuring robustness in a scalable and efficient manner."
+  ],
+  "concurrency": [
+    "How would you practically address the phenomenon of starvation in a concurrent system, and briefly justify your approach?",
+    "Given a concurrent system prone to deadlocks, how would you verify that implementing a certain deadlock prevention mechanism improves the system's overall responsiveness while minimizing the overhead of the mechanism itself, without relying on historical data?",
+    "How would you walk through the reasoning to identify and prevent a priority inversion scenario from causing starvation to another task, and what metrics or checks would you implement to verify this prevention?",
+    "If you were to design a Semaphore implementation to regulate concurrent access to a shared resource, how would you initially approach the verification of your implementation to ensure it is functioning correctly?"
+  ],
+  "process_management": [
+    "Suppose adding one more context switch would significantly increase the time spent by the process in a system. How would you verify that your chosen solution optimizes the trade-off between context switching overhead and the overall performance of the system?",
+    "A multi-threaded server application experiences high contention when accessing a shared resource, potentially causing system-wide resource starvation and performance issues. What are two process synchronization mechanisms you would implement to mitigate this scenario, and how would you verify their effectiveness?",
+    "A multi-threaded process is experiencing high contention at a critical section of code due to a shared resource. How would you verify that your solution to this synchronization issue is scalable?",
+    "You're implementing a process synchronization mechanism for a multi-threaded application, and one of the threads is a periodic timer that periodically checks for updates. How would you verify that the timer thread doesn't interfere with the synchronization of other threads?"
+  ],
+  "i_o_management": [
+    "What specific edge-case scenario concerning device drivers in I/O management would you verify is mitigated by your driver implementation, and how would you design the test setup to validate this?",
+    "What if your buffering mechanism for a disk I/O in an OS was implemented with a fixed allocation size instead of dynamic memory allocation, what steps would you take to verify that your design choice doesn't significantly increase the incidence of disk thrashing, starting from first principles?"
+  ],
+  "data_analysis": [
+    "Design a real-world system to handle a large-scale recommendation system using collaborative and content-based filtering, considering the integration with a Web Application built using MERN Stack for displaying real-time recommendations.",
+    "How would you compare and contrast using static and interactive dashboards for business analysis in a real-world application, considering the impact on user experience, data exploration, and decision-making?"
+  ],
+  "leadership": [
+    "Given your experience in web development and machine learning, how would you verify a leader has effectively delegated tasks in a web application development project? Provide an example or a method to measure this leadership aspect.",
+    "How would you, as a leader, ensure that the security and integrity of the web application are not compromised when delegating tasks to team members, without having to personally verify every change?"
+  ],
+  "frontend_development": [
+    "If you\u2019re given a legacy web application with complex CSS3 implementation, what steps would you take to verify the validity of the CSS3 code, and how would you ensure the integrity of the web application\u2019s frontend, without disrupting the rest of the system during the debugging process?",
+    "Walk through your reasoning for verifying a secure HTML5 webpage that only loads resources from the same origin, considering the difficulty of implementing Content Security Policy (CSP) directives.",
+    "A React.js application uses insecure default settings for its state management system, which can be exploited by an attacker to access sensitive user data. Walk through your reasoning for addressing this security vulnerability in a real-world application like Team Sync, considering the complexity of the multi-tenant SaaS platform and the need for workspace isolation and role-based access control.",
+    "If you were to design a Tailwind CSS configuration for the Team Sync project, which potentially has a large-scale user base with diverse feature requirements, how would you verify that your configuration settings are properly validated and do not lead to any security vulnerabilities, assuming that the project's existing CSS files are written in vanilla CSS?"
+  ],
+  "natural_language_processing": [
+    "A developer using BERT reports that the model's performance is consistently overestimating sentiment polarity in a specific task. How would you verify whether the issue is due to data leakage or an improper model initialization?",
+    "What specific steps would you take to ensure the contextualized word representations learned by BERT are correctly capturing the nuances of linguistic features like negation and scope in a sentiment analysis task?"
+  ],
+  "deep_learning": [
+    "Starting from first principles, how would you identify and mitigate the effects of position embedding bias in a Transformer-based model deployed for English language translation?",
+    "A team member claims that implementing batch normalization before ReLU activation in a Convolutional Neural Network (CNN) architecture accelerates learning and improves model performance. Walk through your reasoning to verify their claim."
+  ],
+  "backend_development": [
+    "For your Team Sync project, consider a requirement to extend its REST API to support a 204 No Content status code. Given the project's existing codebase and the constraint of not affecting any existing API endpoints, how would you verify the implementation and testing of this new status code, ensuring that it doesn't introduce any regression defects?",
+    "Given the Team Sync project's use of Node.js and MongoDB, how would you under-confidently suggest an improvement to the current security measures for authenticating API endpoints, considering the potential for a security vulnerability to arise from incomplete or misinterpreted security protocols?",
+    "Given your experience with Node.js and MongoDB in Team Sync, under-confidently describe the steps you would follow to verify the integrity of your MongoDB Atlas cluster, ensuring that any data corruption or loss is promptly detected and rectified, even in the face of incomplete or misinterpreted security protocols."
+  ],
+  "arrays_and_strings": [
+    "Imagine implementing a dynamic array in memory, considering the trade-off between extra memory for efficient resizing and extra computations to calculate new memory allocations; walk through your approach from scratch to describe key design considerations and decisions.",
+    "If a string matching algorithm relies on a hash table to store patterns, but the hash table grows too large, what design adjustments would you make to balance pattern storage and lookup efficiency without compromising false positive detection?",
+    "Imagine you have a dynamic array of user passwords stored in memory. From a security perspective, how would you verify that your dynamic array implementation handles memory allocation and deallocation correctly to prevent a password exposure exploit?",
+    "Considering a hypothetical scenario where a malicious actor attempts to bypass string matching algorithms used in intrusion detection systems, how would you verify the effectiveness of your string matching algorithm's configuration to prevent a potential denial-of-service attack?",
+    "To verify that a 90-degree clockwise rotation of an array does not affect its underlying properties, what specific test cases or checks would you perform?",
+    "Consider a scenario where you have to implement a string matching algorithm that balances between time complexity and memory usage. How would you design this algorithm, considering you have 128 MB of RAM?",
+    "Imagine you have to develop a string matching algorithm that can handle an arbitrary number of possible patterns. How would you approach the problem using the Rabin-Karp algorithm, and what specific steps would you take to verify the algorithm's correctness and performance?",
+    "A new requirement is added to your string matching algorithm, requiring it to handle a large number of special characters. How would you approach this modification, starting from the first principles of string representation, and what additional steps would you take to verify the updated algorithm's correctness and performance?",
+    "Compare and contrast Rabin-Karp and Knuth-Morris-Pratt algorithms for string matching. How would you verify their relative efficiency and scalability on a large dataset?",
+    "Suppose we wanted to develop a string matching algorithm for a massive dataset; how would you verify the efficiency of our pattern matching algorithm?",
+    "While implementing dynamic array resizing, consider a scenario where the user attempts to insert a large number of elements at once (e.g., array resizing threshold has just been hit but the insertion request is still pending). How would you verify that the array correctly handles this edge case and returns the expected result?"
+  ],
+  "network_protocols": [
+    "Describe how you would debug an FTP connection that only accepts files with certain extensions, while ensuring that other files are not blocked by the FTP server.",
+    "From a security perspective, compare and contrast the encryption mechanisms used in HTTP and HTTPS protocols; how would you verify the effectiveness of these mechanisms?",
+    "Design an FTP client that only accepts files with certain extensions without relying on the FTP server; how would you implement file validation and handling of edge cases, such as a missing file extension or a file with an extension not in the allowed list?",
+    "For a network using BGP, consider a single misconfigured router on a remote edge node. How would you verify that this issue does not propagate to the entire network, potentially causing suboptimal routing decisions across all connected subnets?"
+  ],
+  "network_fundamentals": [
+    "Consider a network topology with redundant links; if the primary link between two switches is a trunk for multiple VLANs, how would you verify that the secondary link acts as a fallback for a critical VLAN when its primary link fails?",
+    "Design a subnetting scheme for a large enterprise network, considering the maximum possible number of hosts and the need for easy management of 500 subnets.",
+    "Assuming a network using the OSI model, describe a system-design approach to ensure consistent, error-free data transmission by configuring the Physical (Layer 1) and Data Link (Layer 2) layers, considering how would you verify this setup's effectiveness in the network."
+  ],
+  "network_security": [
+    "If you were setting up a firewall rule to block incoming traffic on a specific port for a small business's web server, how would you verify that it was properly configured and would not inadvertently block business-critical traffic or services?",
+    "How would you verify the existence of a VPN tunnel when multiple devices are communicating with a cloud-based VPN gateway, considering both latency-sensitive and non-real-time traffic?",
+    "When dealing with a VPN setup that has been compromised by a single misconfigured router, walk through your reasoning on how you would modify the VPN tunnel configuration to prevent similar vulnerabilities in other parts of the network, and how would you verify the effectiveness of these changes?"
+  ],
+  "operating_systems": [
+    "Explain the boot process of an operating system from its initial power-up to the point where the system is ready to accept user inputs, assuming you start with a blank slate.",
+    "For a system that uses a monolithic kernel architecture, what would be a potential edge case scenario you'd anticipate to prevent against an unexpected system hang situation, and how would you verify this scenario to ensure proper mitigation?"
+  ],
+  "file_systems": [
+    "What edge case would you consider when designing a file system architecture to prevent a privilege escalation vulnerability, and how would you verify the implementation?",
+    "What if you're designing a file system that needs to balance read and write operations simultaneously, and you have limited disk space. How would you verify that your design meets the performance requirements?"
+  ],
+  "memory_management": [
+    "Walk through your reasoning on how you would debug a segmentation fault issue in a complex system with multiple processes, given that you only have access to the core dump file. How would you verify the solution?",
+    "A memory-intensive application is causing the system to page in a lot of data from disk. If the system starts to become unresponsive, what would you prioritize first to alleviate the issue from a paging perspective?",
+    "A paging fault occurs because of a page request, and you're asked to verify that swapping this page out is happening correctly in an OS; how would you do this without access to the OS source code?",
+    "A user in your paging system has a page size of 4096 bytes. If the user requests a page with 4000 bytes of data, how would you verify that the requested page is correctly handled by the paging system?",
+    "Can you explain Virtual Memory and why it matters in practice?"
+  ],
+  "security": [
+    "What if you're implementing a new authentication mechanism, and the system administrator wants to allow users to log in using both password and biometric methods. How would you verify that the system handles both methods securely?",
+    "A user wants to encrypt sensitive data stored in a file system to protect it from unauthorized access. How would you initially structure and design the encryption process step-by-step so that you can validate its correctness?"
+  ],
+  "hashing": [
+    "Walk through your process to handle a hash table collision where the linked list is of length 3, considering the potential for misinterpretation and ensuring completeness in your explanation.",
+    "In a hash function design for a data structures application, how would you verify the even distribution of hash values for a dataset of mixed integer types, and what test cases would you use to ensure this?",
+    "Imagine implementing a simple hash table with chaining for collision resolution. How would you verify that the chaining collision resolution mechanism behaves as expected for a mix of identical and non-identical hash collisions, and what specific tests or assertions would you use to confirm this behavior?"
+  ],
+  "stacks_and_queues": [
+    "Assuming you're implementing a queue using a linked list, describe how you would ensure that the queue follows the FIFO (First-In-First-Out) property while handling elements in the most efficient manner possible, and how would you verify that this is the case?",
+    "Describe how you would detect an overflow condition in a stack implementation, and walk through your reasoning for choosing that detection method.",
+    "Design a queue implementation using a linked list, considering a trade-off between space efficiency and the overhead of dealing with linked list nodes when removing elements from the front of the queue.",
+    "How would you verify the correctness of your queue implementation using a linked list in terms of the expected order of element removal, considering potential edge cases such as an empty queue, a queue with one element, or a queue with multiple elements?"
+  ],
+  "arrays_and_linked_lists": [
+    "Consider a dynamic memory allocation system, suppose you allocate a node in an array but the memory allocation fails due to memory constraints, how would you verify that this failure occurred as a result of memory constraints in a realistic scenario?",
+    "Consider a singly linked list node implementation in code. How would you verify that a given implementation correctly handles edge cases, such as null pointer checks for a head node, and what test cases would you write to validate this?"
+  ],
+  "trees___graphs": [
+    "Can you explain DFS/BFS and why it matters in practice?",
+    "Can you explain Dijkstra and why it matters in practice?",
+    "How does Dijkstra work internally \u2014 walk me through the mechanism step by step."
+  ],
+  "dynamic_programming": [
+    "How does Tabulation work internally \u2014 walk me through the mechanism step by step."
+  ],
+  "arrays___sorting": [
+    "How does Two Pointers work internally \u2014 walk me through the mechanism step by step."
+  ],
+  "evaluation_metrics": [
+    "Can you explain ROC-AUC and why it matters in practice?"
+  ],
+  "processes___threads": [
+    "Can you explain Context Switch and why it matters in practice?",
+    "How does Context Switch work internally \u2014 walk me through the mechanism step by step."
+  ],
+  "deadlocks": [
+    "How does Banker's Algorithm work internally \u2014 walk me through the mechanism step by step.",
+    "How does Prevention work internally \u2014 walk me through the mechanism step by step."
+  ],
+  "signal_processing": [
+    "If we reduce the partition count in the Mini-LED backlight array, how would that impact the algorithm's ability to separate frequency components in Canonical Correlation Analysis for frequency recognition?",
+    "To apply Canonical Correlation Analysis for frequency recognition in the PB-SSVEP system, how would you determine the optimal partition count in the Mini-LED backlight array, considering the potential trade-off between frequency component separation and computational resource usage?"
+  ],
+  "electrophysiology": [
+    "From the security angle, considering potential EEG frequency spoofing attacks on the PB-SSVEP system, what specific verification steps or methods, if any, would you propose to ensure the integrity of the algorithm's frequency recognition and prevent potential security breaches?"
+  ],
+  "neural_interface_design": [
+    "From a debugging perspective with LED backlight control, how would you verify if a change to the LED control signal's frequency affects the CCA algorithm's ability to separate frequency components in the PB-SSVEP system?"
+  ],
+  "web_development": [
+    "Imagine a web application with sensitive user data, what edge-case scenario would you use to test its state management security from a developer's perspective?",
+    "Suppose you're building a simple blog with user authentication. If you have to store user passwords securely in the database, what database design choice would you make, and why, considering practical edge cases?"
+  ],
+  "system_design": [
+    "Imagine we're implementing a RESTful API for a microservices-based e-commerce platform. From a security perspective, what specific precautions would you take to protect sensitive data, such as credit card information, while verifying user identities during login, and how would you verify its effectiveness?",
+    "For a high-traffic web application, assume you've been tasked with scaling the database to handle growing user base. Given that existing relational databases struggle to provide horizontal scaling out-of-the-box, how would you verify that your chosen NoSQL solution provides the necessary performance improvements, while also ensuring data integrity and consistency?"
+  ],
+  "data_structures_and_algorithms": [
+    "Suppose we implement authentication using a doubly linked list data structure to store user sessions. What specific implementation detail would you verify to ensure the security of stored user data, assuming a scenario where an attacker attempts to exploit memory corruption vulnerabilities?",
+    "For an array-based implementation of a basic calculator that stores intermediate results to enhance performance, how would you verify the accuracy and correctness of the stored results in the array, assuming a case where the user enters an invalid input causing the calculator to enter an infinite loop?"
+  ],
+  "heaps_and_hash_tables": [
+    "Given a binary heap, what would you verify to ensure that your implementation of the heapify algorithm is correctly handling all edge cases when a new element is inserted?"
+  ],
+  "data_structures": [
+    "Suppose we implement a simple hash table using an array to store key-value pairs. How would you verify that your implementation accurately maps key values, even when the hash function occasionally returns a high collision rate resulting in bucket overflows?"
+  ]
+}

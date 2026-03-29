@@ -1,0 +1,679 @@
+{
+  "session_id": "5f79638e",
+  "created_at": "2026-03-29T04:06:50.143891+00:00",
+  "status": "mentor",
+  "jd_data": {
+    "role": "Full Stack Web Developer",
+    "difficulty_level": "hard",
+    "topics": [
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Cloud and Deployment",
+      "API Design",
+      "Cloud Computing"
+    ],
+    "weights": {
+      "Frontend Development": 4,
+      "Backend Development": 5,
+      "Cloud and Deployment": 3
+    },
+    "subtopics": {
+      "Frontend Development": [
+        "React.js",
+        "Redux",
+        "Tailwind CSS"
+      ],
+      "Backend Development": [
+        "Node.js",
+        "Express.js",
+        "REST APIs"
+      ],
+      "Cloud and Deployment": [
+        "Docker",
+        "GitHub Actions",
+        "AWS (EC2)"
+      ]
+    }
+  },
+  "topic": "Full Stack Web Developer",
+  "topics": [
+    "Web Development",
+    "Frontend Development",
+    "Backend Development",
+    "Cloud and Deployment",
+    "API Design",
+    "Cloud Computing"
+  ],
+  "max_questions": 5,
+  "scenario_mode": "no",
+  "difficulty": "easy",
+  "history": [
+    {
+      "question": "A React.js application uses insecure default settings for its state management system, which can be exploited by an attacker to access sensitive user data. Walk through your reasoning for addressing this security vulnerability in a real-world application like Team Sync, considering the complexity of the multi-tenant SaaS platform and the need for workspace isolation and role-based access control.",
+      "answer": "I don't know please want to next question  please move on to next question",
+      "topic": "Web Development",
+      "difficulty": "hard",
+      "score": 0,
+      "feedback": "The candidate failed to address the security vulnerability and didn't provide any relevant information, lacking basic understanding of state management security and access control mechanisms.",
+      "correctness": "incorrect",
+      "weak_area": "state management security",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to address security concerns"
+      ]
+    },
+    {
+      "question": "For your Team Sync project, consider a requirement to extend its REST API to support a 204 No Content status code. Given the project's existing codebase and the constraint of not affecting any existing API endpoints, how would you verify the implementation and testing of this new status code, ensuring that it doesn't introduce any regression defects?",
+      "answer": "this is quite very much difficult for me to answer this question at this point of time  is ask me other question",
+      "topic": "Frontend Development",
+      "difficulty": "medium",
+      "score": 0,
+      "feedback": "The candidate struggled to provide a basic approach to implementing and testing a new status code, indicating a significant gap in understanding of API design and testing principles.",
+      "correctness": "incorrect",
+      "weak_area": "API status code handling",
+      "strengths": [],
+      "weaknesses": [
+        "inability to approach the problem",
+        "lack of technical knowledge"
+      ]
+    },
+    {
+      "question": "Given the Team Sync project's use of Node.js and MongoDB, how would you under-confidently suggest an improvement to the current security measures for authenticating API endpoints, considering the potential for a security vulnerability to arise from incomplete or misinterpreted security protocols?",
+      "answer": "I'll just tell you this answer late on",
+      "topic": "Backend Development",
+      "difficulty": "easy",
+      "score": 2,
+      "feedback": "The candidate failed to provide a concrete suggestion for improving security measures, and their answer lacked depth and specificity, indicating a significant gap in their understanding of API security and authentication protocols.",
+      "correctness": "incorrect",
+      "weak_area": "API authentication",
+      "strengths": [],
+      "weaknesses": [
+        "lack of specific security measures",
+        "incomplete answer"
+      ]
+    },
+    {
+      "question": "Given your experience with Node.js and MongoDB in Team Sync, under-confidently describe the steps you would follow to verify the integrity of your MongoDB Atlas cluster, ensuring that any data corruption or loss is promptly detected and rectified, even in the face of incomplete or misinterpreted security protocols.",
+      "answer": "okay will start with this late on but now I don't have much time",
+      "topic": "Cloud and Deployment",
+      "difficulty": "easy",
+      "score": 2,
+      "feedback": "The candidate failed to provide any meaningful steps for verifying MongoDB Atlas cluster integrity, indicating a significant knowledge gap in database administration and security protocols.",
+      "correctness": "incorrect",
+      "weak_area": "MongoDB cluster monitoring",
+      "strengths": [],
+      "weaknesses": [
+        "lack of specific steps",
+        "inability to articulate a plan"
+      ]
+    },
+    {
+      "question": "If you were to design a Tailwind CSS configuration for the Team Sync project, which potentially has a large-scale user base with diverse feature requirements, how would you verify that your configuration settings are properly validated and do not lead to any security vulnerabilities, assuming that the project's existing CSS files are written in vanilla CSS?",
+      "answer": "again sorry for that I don't have the answer",
+      "topic": "API Design",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide a relevant answer, lacking knowledge of Tailwind CSS configuration and security validation, and should review these concepts to improve.",
+      "correctness": "incorrect",
+      "weak_area": "Tailwind config validation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to provide a relevant answer"
+      ]
+    }
+  ],
+  "questions_asked": [
+    "A React.js application uses insecure default settings for its state management system, which can be exploited by an attacker to access sensitive user data. Walk through your reasoning for addressing this security vulnerability in a real-world application like Team Sync, considering the complexity of the multi-tenant SaaS platform and the need for workspace isolation and role-based access control.",
+    "For your Team Sync project, consider a requirement to extend its REST API to support a 204 No Content status code. Given the project's existing codebase and the constraint of not affecting any existing API endpoints, how would you verify the implementation and testing of this new status code, ensuring that it doesn't introduce any regression defects?",
+    "Given the Team Sync project's use of Node.js and MongoDB, how would you under-confidently suggest an improvement to the current security measures for authenticating API endpoints, considering the potential for a security vulnerability to arise from incomplete or misinterpreted security protocols?",
+    "Given your experience with Node.js and MongoDB in Team Sync, under-confidently describe the steps you would follow to verify the integrity of your MongoDB Atlas cluster, ensuring that any data corruption or loss is promptly detected and rectified, even in the face of incomplete or misinterpreted security protocols.",
+    "If you were to design a Tailwind CSS configuration for the Team Sync project, which potentially has a large-scale user base with diverse feature requirements, how would you verify that your configuration settings are properly validated and do not lead to any security vulnerabilities, assuming that the project's existing CSS files are written in vanilla CSS?"
+  ],
+  "answers": [
+    "I don't know please want to next question  please move on to next question",
+    "this is quite very much difficult for me to answer this question at this point of time  is ask me other question",
+    "I'll just tell you this answer late on",
+    "okay will start with this late on but now I don't have much time",
+    "again sorry for that I don't have the answer"
+  ],
+  "evaluations": [
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to address security concerns"
+      ],
+      "missing_concepts": [
+        "state management security",
+        "role-based access control",
+        "workspace isolation"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to address the security vulnerability and didn't provide any relevant information, lacking basic understanding of state management security and access control mechanisms.",
+      "weak_area": "state management security",
+      "ideal_answer": "To address the security vulnerability in a React.js application, I would first identify the insecure default settings in the state management system and update them to use secure practices such as encrypting sensitive data and implementing role-based access control. For a multi-tenant SaaS platform like Team Sync, I would ensure workspace isolation by using separate state management instances for each workspace and implement strict access controls to prevent unauthorized data access. For example, using a library like Redux with secure middleware and authentication mechanisms can help mitigate these security risks."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "inability to approach the problem",
+        "lack of technical knowledge"
+      ],
+      "missing_concepts": [
+        "REST API status codes",
+        "regression testing",
+        "API endpoint implementation"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate struggled to provide a basic approach to implementing and testing a new status code, indicating a significant gap in understanding of API design and testing principles.",
+      "weak_area": "API status code handling",
+      "ideal_answer": "To verify the implementation and testing of the 204 No Content status code, I would first update the API endpoint to return this status code under specific conditions, then write unit tests and integration tests to ensure the correct status code is returned. I would also perform regression testing to verify that existing API endpoints are unaffected. For example, if the API endpoint is used to delete a resource, the 204 status code would be returned after successful deletion, and the tests would validate this behavior."
+    },
+    {
+      "score": 2,
+      "strengths": [],
+      "weaknesses": [
+        "lack of specific security measures",
+        "incomplete answer"
+      ],
+      "missing_concepts": [
+        "authentication protocols",
+        "API endpoint security",
+        "MongoDB security best practices"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide a concrete suggestion for improving security measures, and their answer lacked depth and specificity, indicating a significant gap in their understanding of API security and authentication protocols.",
+      "weak_area": "API authentication",
+      "ideal_answer": "To improve the security of API endpoints in the Team Sync project, I would suggest implementing JSON Web Tokens (JWT) for authentication, ensuring that all API requests are encrypted using HTTPS, and validating user input to prevent common web vulnerabilities such as SQL injection and cross-site scripting (XSS). Additionally, regularly updating dependencies and using a Web Application Firewall (WAF) can help mitigate potential security threats. For example, in a Node.js and MongoDB application, using the 'jsonwebtoken' library to sign and verify JWTs can enhance the security of user authentication."
+    },
+    {
+      "score": 2,
+      "strengths": [],
+      "weaknesses": [
+        "lack of specific steps",
+        "inability to articulate a plan"
+      ],
+      "missing_concepts": [
+        "data backup and restore",
+        "MongoDB Atlas cluster monitoring",
+        "security audit"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any meaningful steps for verifying MongoDB Atlas cluster integrity, indicating a significant knowledge gap in database administration and security protocols.",
+      "weak_area": "MongoDB cluster monitoring",
+      "ideal_answer": "To verify the integrity of a MongoDB Atlas cluster, I would first set up real-time monitoring using Atlas's built-in metrics and alerts, focusing on disk space, CPU usage, and query performance. Next, I would implement regular data backups using Atlas's automated backup system and store them in a secure, separate location. Additionally, I would conduct periodic security audits to ensure that all security protocols, such as encryption at rest and in transit, and access controls, are correctly configured and up-to-date. For example, in a recent project, I used MongoDB Atlas's alerting system to quickly identify and resolve a disk space issue before it caused any data loss."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to provide a relevant answer"
+      ],
+      "missing_concepts": [
+        "Tailwind CSS configuration",
+        "CSS validation",
+        "security vulnerabilities"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide a relevant answer, lacking knowledge of Tailwind CSS configuration and security validation, and should review these concepts to improve.",
+      "weak_area": "Tailwind config validation",
+      "ideal_answer": "To verify Tailwind CSS configuration settings, I would use a combination of automated testing tools, such as Jest and Cypress, to ensure that the configuration does not introduce any security vulnerabilities. I would also utilize linters, like ESLint and Stylelint, to validate the CSS code and detect potential issues. Additionally, I would review the configuration files manually to ensure that they align with the project's requirements and follow best practices for security and performance. For example, I would check for any unnecessary or insecure settings, such as allowing arbitrary CSS classes or enabling debug mode in production."
+    }
+  ],
+  "fingerprint_history": [
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 6
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    }
+  ],
+  "difficulty_history": [
+    "hard",
+    "hard",
+    "medium",
+    "medium",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy"
+  ],
+  "scores": [
+    0,
+    0,
+    2,
+    2,
+    0
+  ],
+  "current_question": "If you were to design a Tailwind CSS configuration for the Team Sync project, which potentially has a large-scale user base with diverse feature requirements, how would you verify that your configuration settings are properly validated and do not lead to any security vulnerabilities, assuming that the project's existing CSS files are written in vanilla CSS?",
+  "current_index": 5,
+  "fingerprint": {
+    "depth": "surface",
+    "thinking_type": "rote",
+    "confidence_bias": "underconfident",
+    "learning_velocity": "slow",
+    "error_pattern": [
+      "conceptual",
+      "incomplete",
+      "misinterpretation"
+    ],
+    "consistency_score": 5
+  },
+  "weak_areas": [
+    "state management security",
+    "API status code handling",
+    "API authentication",
+    "MongoDB cluster monitoring",
+    "Tailwind config validation"
+  ],
+  "mentor_conversation": [
+    {
+      "role": "assistant",
+      "content": "What underlying principle drives the need for secure state management in a full-stack web application, and how does it impact the overall security posture of the system?",
+      "timestamp": 1774757375.0854936
+    },
+    {
+      "role": "user",
+      "content": "will just try to focus on this",
+      "timestamp": 1774757391.6531742
+    },
+    {
+      "role": "assistant",
+      "content": "Can you describe a specific mechanism, such as token-based authentication or encryption, that you would use to secure state management in a full-stack web application, and how it would mitigate potential security risks?",
+      "timestamp": 1774757392.1656697
+    },
+    {
+      "role": "user",
+      "content": "we are trying to do something else in this",
+      "timestamp": 1774757419.71234
+    },
+    {
+      "role": "assistant",
+      "content": "What would happen to the security of your state management system if a user's session token is compromised due to a man-in-the-middle attack, and how would you mitigate this edge case?",
+      "timestamp": 1774757420.272011
+    },
+    {
+      "role": "user",
+      "content": "we are trying to do something else in this  again we don't know the answer",
+      "timestamp": 1774757439.3950696
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "timestamp": 1774757440.5156682
+    },
+    {
+      "role": "user",
+      "content": "what is machine lenifngn?",
+      "timestamp": 1774757474.7734437
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "timestamp": 1774757476.3666573
+    }
+  ],
+  "mentor_attempts": 4,
+  "mentor_focus": "API status code handling",
+  "socratic_history": [
+    "will just try to focus on this",
+    "we are trying to do something else in this",
+    "we are trying to do something else in this  again we don't know the answer",
+    "what is machine lenifngn?"
+  ],
+  "rag_context": {
+    "chunks": [
+      "Neelabh sharma +91 7428460549 - Portfolio - neelabhsharma2002@gmail.com - linkedin.com/in/-neelabh-sharma - github.com/Neelabh-Sharma EDUCATION Dr B R Ambedkar National Institute of Technology Jalandhar, punjab M-Tech Industrial Engineering and Data Analytics CGPA : 8.68 July 2025 - june 2027 Chandigarh University Mohali,Punjab MCA - Computer Application (Full-stack Engineering ) CGPA : 8.45 July 2023 - June 2025 WORK EXPERIENCE Software Developer Eduspheria Private Limited , Baddi, India July 2023 - January 2025 • Built a CI/CD pipelines with GitHub Actions and Docker, decreasing the deployment time by 70% and Conducted code reviews • Developed and maintained REST APIs handling 30,000+ monthly requests, contributing to performance improvements and ongoing feature updates. • Tools & Tech Stack: Node.js, Express.js, React.js, MySQL, MongoDB, REST APIs, Microservices, Docker, AWS(EC2 ) Software Developer Alishu InfoTech , Delhi, India July 2022 - June 2023 • Completed 2 projects as a team member — developed an admin dashboard with end-to-end service and an application handling 50,000+ users. • Collaborated with clients to design and deliver UI/UX that met their requirements and received positive feedback. • Tools & Tech Stack: Node.js, Express.js, React.js, MySQL, MongoDB, REST APIs, Tailwind CSS, Git/GitHub, Redux, JWT, OAuth PROJECTS Team Sync – Multi-Tenant SaaS Project Management System • Architected and developed a scalable MERN SaaS platform with workspace isolation and role-based access control (Owner, Admin, Member). • Designed and built core modules including Projects, Epics, and Task Management (CRUD operations, priority, status, assignee, filtering, pagination). • Tech Stack: Node.js, Express.js, MongoDB, Mongoose, React.js, TypeScript, TailwindCSS, ShadCN UI, Vite, Google OAuth. Chat AI App • Built a full-stack AI-powered chat application integrating Stream Chat, OpenAI GPT-4, and Tavily Web Search, enabling real-time messaging with intelligent content generation and live information retrieval. • Designed a scalable Node.js ,Express backend with JWT authentication and dynamic AI agent lifecycle",
+      "Member). • Designed and built core modules including Projects, Epics, and Task Management (CRUD operations, priority, status, assignee, filtering, pagination). • Tech Stack: Node.js, Express.js, MongoDB, Mongoose, React.js, TypeScript, TailwindCSS, ShadCN UI, Vite, Google OAuth. Chat AI App • Built a full-stack AI-powered chat application integrating Stream Chat, OpenAI GPT-4, and Tavily Web Search, enabling real-time messaging with intelligent content generation and live information retrieval. • Designed a scalable Node.js ,Express backend with JWT authentication and dynamic AI agent lifecycle management, delivering secure, low-latency interactions with a responsive React and Tailwind UI. • Tech Stack: React.js, Tailwind CSS, Node.js, Express.js, JWT, Stream Chat (GetStream), OpenAI GPT-4, Tavily API. TECHNICAL SKILLS Programming Languages: Python, Java, JavaScript (ES6) Libraries and Tools: React JS, Express JS, Node Js, Redux, Tailwind CSS, Bootstrap 5.0 Development Tools: Git/GitHub, GitHub Actions, Docker, Vercel, OAuth ML & AI : NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, TensorFlow, CNN, RNN, LSTM, BERT, GPT, Transformers ACHIEVEMENTS & CERTIFICATIONS • GATE QUALIFIED 2025 • Full Stack Web Development - CODING NINJAS • 500+ DSA PROBLEM • FINALIST - NATIONAL APTITUDE CHALLENGE"
+    ],
+    "keywords": [
+      "react",
+      "rest",
+      "stack",
+      "july",
+      "development",
+      "java",
+      "javascript",
+      "python",
+      "june",
+      "2023",
+      "apis",
+      "developed",
+      "chat",
+      "node.js",
+      "docker",
+      "admin",
+      "software",
+      "cgpa",
+      "india",
+      "feature",
+      "aws",
+      "developer",
+      "handling",
+      "punjab",
+      "000+",
+      "mysql",
+      "engineering",
+      "saas"
+    ],
+    "topics": [
+      "Web Development",
+      "API Design",
+      "Cloud Computing",
+      "Software Engineering"
+    ],
+    "tfidf": {
+      "oauth": 0.005435396430991642,
+      "mohali": 0.0072667260968238,
+      "completed": 0.0072667260968238,
+      "dashboard": 0.0072667260968238,
+      "decreasing": 0.0072667260968238,
+      "priority": 0.005435396430991642,
+      "admin": 0.0145334521936476,
+      "june": 0.0218001782904714,
+      "control": 0.0072667260968238,
+      "linkedin.com": 0.0072667260968238,
+      "ongoing": 0.0072667260968238,
+      "design": 0.0072667260968238,
+      "tavily": 0.008724870115202168,
+      "docker": 0.015162638355545516,
+      "software": 0.0145334521936476,
+      "2022": 0.0072667260968238,
+      "owner": 0.0072667260968238,
+      "project": 0.0072667260968238,
+      "google": 0.005435396430991642,
+      "cgpa": 0.0145334521936476,
+      "actions": 0.005435396430991642,
+      "information": 0.005435396430991642,
+      "search": 0.005435396430991642,
+      "+91": 0.0072667260968238,
+      "private": 0.0072667260968238,
+      "built": 0.0130167156087644,
+      "ci": 0.0072667260968238,
+      "ai-powered": 0.005435396430991642,
+      "gpt-4": 0.008724870115202168,
+      "ec2": 0.0072667260968238,
+      "mongodb": 0.009727241924553874,
+      "received": 0.0072667260968238,
+      "clients": 0.0072667260968238,
+      "50": 0.0072667260968238,
+      "role-based": 0.0072667260968238,
+      "deliver": 0.0072667260968238,
+      "retrieval.": 0.005435396430991642,
+      "member": 0.007581319177772758,
+      "service": 0.0072667260968238,
+      "infotech": 0.0072667260968238,
+      "india": 0.0145334521936476,
+      "mern": 0.0072667260968238,
+      "shadcn": 0.005435396430991642,
+      "projects": 0.009727241924553874,
+      "assignee": 0.005435396430991642,
+      "live": 0.005435396430991642,
+      "including": 0.005435396430991642,
+      "intelligent": 0.005435396430991642,
+      "stream": 0.008724870115202168,
+      "chat": 0.01959566297718545,
+      "2025": 0.009727241924553874,
+      "8.68": 0.0072667260968238,
+      "feature": 0.0145334521936476,
+      "typescript": 0.010870792861983284,
+      "requests": 0.0072667260968238,
+      "web": 0.008724870115202168,
+      "workspace": 0.0072667260968238,
+      "architected": 0.0072667260968238,
+      "git": 0.005435396430991642,
+      "code": 0.0072667260968238,
+      "portfolio": 0.0072667260968238,
+      "2023": 0.0218001782904714,
+      "baddi": 0.0072667260968238,
+      "management": 0.010870792861983284,
+      "modules": 0.005435396430991642,
+      "tech": 0.0130167156087644,
+      "access": 0.0072667260968238,
+      "tailwindcss": 0.005435396430991642,
+      "jalandhar": 0.0072667260968238,
+      "content": 0.005435396430991642,
+      "authentication": 0.005435396430991642,
+      "performance": 0.0072667260968238,
+      "aws": 0.0145334521936476,
+      "developer": 0.0145334521936476,
+      "vite": 0.005435396430991642,
+      "technology": 0.0072667260968238,
+      "integrating": 0.005435396430991642,
+      "improvements": 0.0072667260968238,
+      "tailwind": 0.012014343799412694,
+      "status": 0.005435396430991642,
+      "apis": 0.0218001782904714,
+      "full-stack": 0.007581319177772758,
+      "enabling": 0.005435396430991642,
+      "data": 0.0072667260968238,
+      "handling": 0.0145334521936476,
+      "express.js": 0.0130167156087644,
+      "monthly": 0.0072667260968238,
+      "positive": 0.0072667260968238,
+      "analytics": 0.0072667260968238,
+      "developed": 0.0218001782904714,
+      "sharma": 0.0072667260968238,
+      "conducted": 0.0072667260968238,
+      "github.com": 0.0072667260968238,
+      "computer": 0.0072667260968238,
+      "cd": 0.0072667260968238,
+      "sync": 0.0072667260968238,
+      "punjab": 0.0145334521936476,
+      "users.": 0.0072667260968238,
+      "ambedkar": 0.0072667260968238,
+      "industrial": 0.0072667260968238,
+      "end-to-end": 0.0072667260968238,
+      "neelabh-sharma": 0.0072667260968238,
+      "m-tech": 0.0072667260968238,
+      "multi-tenant": 0.0072667260968238,
+      "scalable": 0.007581319177772758,
+      "maintained": 0.0072667260968238,
+      "isolation": 0.0072667260968238,
+      "university": 0.0072667260968238,
+      "filtering": 0.005435396430991642,
+      "ai": 0.01416026654619381,
+      "task": 0.005435396430991642,
+      "neelabhsharma2002": 0.0072667260968238,
+      "000+": 0.0145334521936476,
+      "8.45": 0.0072667260968238,
+      "updates.": 0.0072667260968238,
+      "mysql": 0.0145334521936476,
+      "real-time": 0.005435396430991642,
+      "engineering": 0.0145334521936476,
+      "gmail.com": 0.0072667260968238,
+      "january": 0.0072667260968238,
+      "saas": 0.0145334521936476,
+      "microservices": 0.0072667260968238,
+      "stack": 0.032612378585949856,
+      "backend": 0.005435396430991642,
+      "deployment": 0.0072667260968238,
+      "chandigarh": 0.0072667260968238,
+      "contributing": 0.0072667260968238,
+      "oauth.": 0.005435396430991642,
+      "dynamic": 0.005435396430991642,
+      "neelabh": 0.0072667260968238,
+      "70": 0.0072667260968238,
+      "github": 0.010870792861983284,
+      "node.js": 0.018452112039756042,
+      "pipelines": 0.0072667260968238,
+      "feedback.": 0.0072667260968238,
+      "ux": 0.0072667260968238,
+      "operations": 0.005435396430991642,
+      "core": 0.005435396430991642,
+      "crud": 0.005435396430991642,
+      "rest": 0.0436003565809428,
+      "system": 0.0072667260968238,
+      "designed": 0.010870792861983284,
+      "met": 0.0072667260968238,
+      "mongoose": 0.005435396430991642,
+      "tools": 0.010870792861983284,
+      "jwt": 0.010870792861983284,
+      "national": 0.005435396430991642,
+      "institute": 0.0072667260968238,
+      "agent": 0.005435396430991642,
+      "july": 0.0290669043872952,
+      "express": 0.008724870115202168,
+      "delhi": 0.0072667260968238,
+      "pagination": 0.005435396430991642,
+      "eduspheria": 0.0072667260968238,
+      "app": 0.005435396430991642,
+      "ui": 0.007581319177772758,
+      "messaging": 0.005435396430991642,
+      "education": 0.0072667260968238,
+      "limited": 0.0072667260968238,
+      "30": 0.0072667260968238,
+      "openai": 0.008724870115202168,
+      "reviews": 0.0072667260968238,
+      "7428460549": 0.0072667260968238,
+      "epics": 0.005435396430991642,
+      "collaborated": 0.0072667260968238,
+      "dr": 0.0072667260968238,
+      "alishu": 0.0072667260968238,
+      "-neelabh-sharma": 0.0072667260968238,
+      "platform": 0.0072667260968238,
+      "react.js": 0.0130167156087644,
+      "mca": 0.0072667260968238,
+      "css": 0.008724870115202168,
+      "time": 0.0072667260968238,
+      "generation": 0.005435396430991642,
+      "lifecycle": 0.005435396430991642,
+      "2027": 0.0072667260968238,
+      "redux": 0.005435396430991642,
+      "getstream": 0.011139126187894376,
+      "scikit-learn": 0.011139126187894376,
+      "qualified": 0.011139126187894376,
+      "seaborn": 0.011139126187894376,
+      "bert": 0.011139126187894376,
+      "aptitude": 0.011139126187894376,
+      "vercel": 0.011139126187894376,
+      "development": 0.022278252375788753,
+      "500+": 0.011139126187894376,
+      "programming": 0.011139126187894376,
+      "ui.": 0.011139126187894376,
+      "responsive": 0.011139126187894376,
+      "java": 0.022278252375788753,
+      "finalist": 0.011139126187894376,
+      "ml": 0.011139126187894376,
+      "transformers": 0.011139126187894376,
+      "api.": 0.011139126187894376,
+      "certifications": 0.011139126187894376,
+      "secure": 0.011139126187894376,
+      "react": 0.044556504751577505,
+      "javascript": 0.022278252375788753,
+      "challenge": 0.011139126187894376,
+      "skills": 0.011139126187894376,
+      "dsa": 0.011139126187894376,
+      "full": 0.011139126187894376,
+      "tensorflow": 0.011139126187894376,
+      "cnn": 0.011139126187894376,
+      "numpy": 0.011139126187894376,
+      "coding": 0.011139126187894376,
+      "gpt": 0.011139126187894376,
+      "achievements": 0.011139126187894376,
+      "lstm": 0.011139126187894376,
+      "gate": 0.011139126187894376,
+      "delivering": 0.011139126187894376,
+      "problem": 0.011139126187894376,
+      "js": 0.03341737856368313,
+      "technical": 0.011139126187894376,
+      "libraries": 0.011139126187894376,
+      "pandas": 0.011139126187894376,
+      "low-latency": 0.011139126187894376,
+      "bootstrap": 0.011139126187894376,
+      "es6": 0.011139126187894376,
+      "rnn": 0.011139126187894376,
+      "interactions": 0.011139126187894376,
+      "ninjas": 0.011139126187894376,
+      "languages": 0.011139126187894376,
+      "5.0": 0.011139126187894376,
+      "matplotlib": 0.011139126187894376,
+      "python": 0.022278252375788753,
+      "node": 0.011139126187894376
+    }
+  },
+  "pdf_used": true,
+  "pdf_text": "Neelabh sharma +91 7428460549 - Portfolio - neelabhsharma2002@gmail.com - linkedin.com/in/-neelabh-sharma - github.com/Neelabh-Sharma EDUCATION Dr B R Ambedkar National Institute of Technology Jalandhar, punjab M-Tech Industrial Engineering and Data Analytics CGPA : 8.68 July 2025 - june 2027 Chandigarh University Mohali,Punjab MCA - Computer Application (Full-stack Engineering ) CGPA : 8.45 July 2023 - June 2025 WORK EXPERIENCE Software Developer Eduspheria Private Limited , Baddi, India July 2023 - January 2025 • Built a CI/CD pipelines with GitHub Actions and Docker, decreasing the deployment time by 70% and Conducted code reviews • Developed and maintained REST APIs handling 30,000+ monthly requests, contributing to performance improvements and ongoing feature updates. • Tools & Tech Stack: Node.js, Express.js, React.js, MySQL, MongoDB, REST APIs, Microservices, Docker, AWS(EC2 ) Software Developer Alishu InfoTech , Delhi, India July 2022 - June 2023 • Completed 2 projects as a team member — developed an admin dashboard with end-to-end service and an application handling 50,000+ users. • Collaborated with clients to design and deliver UI/UX that met their requirements and received positive feedback. • Tools & Tech Stack: Node.js, Express.js, React.js, MySQL, MongoDB, REST APIs, Tailwind CSS, Git/GitHub, Redux, JWT, OAuth PROJECTS Team Sync – Multi-Tenant SaaS Project Management System • Architected and developed a scalable MERN SaaS platform with workspace isolation and role-based access control (Owner, Admin, Member). • Designed and built core modules including Projects, Epics, and Task Management (CRUD operations, priority, status, assignee, filtering, pagination). • Tech Stack: Node.js, Express.js, MongoDB, Mongoose, React.js, TypeScript, TailwindCSS, ShadCN UI, Vite, Google OAuth. Chat AI App • Built a full-stack AI-powered chat application integrating Stream Chat, OpenAI GPT-4, and Tavily Web Search, enabling real-time messaging with intelligent content generation and live information retrieval. • Designed a scalable Node.js ,Express backend with JWT authentication and dynamic AI agent lifecycle management, delivering secure, low-latency interactions with a responsive React and Tailwind UI. • Tech Stack: React.js, Tailwind CSS, Node.js, Express.js, JWT, Stream Chat (GetStream), OpenAI GPT-4, Tavily API. TECHNICAL SKILLS Programming Languages: Python, Java, JavaScript (ES6) Libraries and Tools: React JS, Express JS, Node Js, Redux, Tailwind CSS, Bootstrap 5.0 Development Tools: Git/GitHub, GitHub Actions, Docker, Vercel, OAuth ML & AI : NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, TensorFlow, CNN, RNN, LSTM, BERT, GPT, Transformers ACHIEVEMENTS & CERTIFICATIONS • GATE QUALIFIED 2025 • Full Stack Web Development - CODING NINJAS • 500+ DSA PROBLEM • FINALIST - NATIONAL APTITUDE CHALLENGE",
+  "mentor_weak_areas": [
+    "state management security",
+    "API status code handling",
+    "API authentication",
+    "MongoDB cluster monitoring",
+    "Tailwind config validation"
+  ],
+  "mentor_area_index": 1,
+  "mentor_area_attempts": 0,
+  "mentor_all_done": false,
+  "mentor_last_activity": 1774757474.7734437
+}

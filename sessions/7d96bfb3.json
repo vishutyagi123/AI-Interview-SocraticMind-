@@ -1,0 +1,797 @@
+{
+  "session_id": "7d96bfb3",
+  "created_at": "2026-03-29T07:01:31.809862+00:00",
+  "status": "complete",
+  "jd_data": {
+    "role": "Machine Learning Engineer",
+    "difficulty_level": "hard",
+    "topics": [
+      "Machine Learning",
+      "Data Engineering",
+      "Data Analysis",
+      "Data Science",
+      "Python Development"
+    ],
+    "weights": {
+      "Machine Learning": 5,
+      "Data Engineering": 4,
+      "Data Analysis": 3
+    },
+    "subtopics": {
+      "Machine Learning": [
+        "Deep Learning",
+        "Computer Vision",
+        "Predictive Modeling"
+      ],
+      "Data Engineering": [
+        "Databricks",
+        "Apache Spark",
+        "ETL Pipelines"
+      ],
+      "Data Analysis": [
+        "Statistical Analysis",
+        "Data Visualization",
+        "Data Quality Checks"
+      ]
+    }
+  },
+  "topic": "Machine Learning Engineer",
+  "topics": [
+    "Machine Learning",
+    "Data Engineering",
+    "Data Analysis",
+    "Data Science",
+    "Python Development"
+  ],
+  "max_questions": 5,
+  "scenario_mode": "no",
+  "difficulty": "easy",
+  "history": [
+    {
+      "question": "A customer support AI model you designed uses pre-trained CNNs for image classification. It suddenly starts misclassifying some signs of the Indian Sign Language (ISL), which is similar to the sign language model you built in the past. Walk through your reasoning to identify the possible cause of this unexpected behavior.",
+      "answer": "no I don't know the answer",
+      "topic": "Machine Learning",
+      "difficulty": "hard",
+      "score": 0,
+      "feedback": "The candidate failed to provide any reasoning or potential causes for the misclassification, indicating a significant knowledge gap in machine learning model maintenance and adaptation.",
+      "correctness": "incorrect",
+      "weak_area": "domain adaptation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to reason"
+      ],
+      "evaluation": {
+        "score": 0,
+        "strengths": [],
+        "weaknesses": [
+          "lack of knowledge",
+          "no attempt to reason"
+        ],
+        "missing_concepts": [
+          "concept drift",
+          "model updating",
+          "domain adaptation"
+        ],
+        "confidence_level": "low",
+        "correctness": "incorrect",
+        "struggle_level": "severe",
+        "feedback": "The candidate failed to provide any reasoning or potential causes for the misclassification, indicating a significant knowledge gap in machine learning model maintenance and adaptation.",
+        "weak_area": "domain adaptation",
+        "ideal_answer": "To address the sudden misclassification of Indian Sign Language signs, I would first investigate if the pre-trained CNNs are experiencing concept drift due to changes in the data distribution. I would then consider updating the model using transfer learning or domain adaptation techniques to adapt to the new sign language data. Additionally, I would analyze the data for any biases or noise that could be causing the misclassifications and retrain the model with a more diverse and representative dataset."
+      }
+    },
+    {
+      "question": "If you were to design an ETL pipeline on Databricks for large-scale supply chain data, how would you verify the correctness of the ETL workflow to ensure that the transformed data is accurate and reliable?",
+      "answer": "no I don't know",
+      "topic": "Data Engineering",
+      "difficulty": "medium",
+      "score": 0,
+      "feedback": "The candidate failed to provide any relevant information on ETL pipeline verification, indicating a significant knowledge gap in data engineering principles and practices.",
+      "correctness": "incorrect",
+      "weak_area": "ETL workflow validation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of ETL knowledge",
+        "no data engineering experience"
+      ],
+      "evaluation": {
+        "score": 0,
+        "strengths": [],
+        "weaknesses": [
+          "lack of ETL knowledge",
+          "no data engineering experience"
+        ],
+        "missing_concepts": [
+          "data validation",
+          "data quality checks",
+          "unit testing"
+        ],
+        "confidence_level": "low",
+        "correctness": "incorrect",
+        "struggle_level": "severe",
+        "feedback": "The candidate failed to provide any relevant information on ETL pipeline verification, indicating a significant knowledge gap in data engineering principles and practices.",
+        "weak_area": "ETL workflow validation",
+        "ideal_answer": "To verify the correctness of an ETL workflow on Databricks, I would implement data validation checks at each stage of the pipeline, including data quality checks, data profiling, and unit testing. This would involve using tools like Apache Spark's built-in validation functions, as well as external libraries like Great Expectations. Additionally, I would use Databricks' built-in features like data lineage and data governance to track data provenance and ensure data accuracy. For example, in a supply chain ETL pipeline, I would validate the data against a set of predefined rules, such as checking for missing or duplicate values, and ensuring that the data conforms to the expected schema."
+      }
+    },
+    {
+      "question": "If you were designing an ETL pipeline for the supply chain data on Databricks, how would you start from first principles to ensure data integrity and pipeline reliability, considering you've optimized query performance using partitioning strategies and caching in your previous project?",
+      "answer": "no I don't know the answer",
+      "topic": "Data Analysis",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate did not attempt to answer the question, showing a significant gap in knowledge of ETL pipeline design and data integrity on Databricks. To improve, they should study the basics of ETL pipelines and Databricks architecture.",
+      "correctness": "incorrect",
+      "weak_area": "ETL pipeline basics",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to answer"
+      ],
+      "evaluation": {
+        "score": 0,
+        "strengths": [],
+        "weaknesses": [
+          "lack of knowledge",
+          "no attempt to answer"
+        ],
+        "missing_concepts": [
+          "ETL pipeline design",
+          "data integrity",
+          "pipeline reliability",
+          "Databricks"
+        ],
+        "confidence_level": "low",
+        "correctness": "incorrect",
+        "struggle_level": "severe",
+        "feedback": "The candidate did not attempt to answer the question, showing a significant gap in knowledge of ETL pipeline design and data integrity on Databricks. To improve, they should study the basics of ETL pipelines and Databricks architecture.",
+        "weak_area": "ETL pipeline basics",
+        "ideal_answer": "To design an ETL pipeline for supply chain data on Databricks, I would start by defining the data sources and sinks, and then plan the data transformation and loading process. I would ensure data integrity by implementing data validation and quality checks at each stage of the pipeline, and use Databricks' built-in features such as partitioning and caching to optimize query performance. For example, I would use Apache Spark to read data from a CSV file, apply transformations and aggregations, and then write the data to a Delta Lake table, leveraging Databricks' ACID transactions for reliable data processing."
+      }
+    },
+    {
+      "question": "How would you verify the correctness of a job in a Spark cluster, especially when it involves complex data processing and transformations for supply chain analytics? Start from first principles and consider the importance of data integrity, pipeline reliability, and scalability in your answer.",
+      "answer": "I don't know the answer",
+      "topic": "Data Science",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate did not attempt to answer the question, showing a significant gap in knowledge of Spark cluster verification and data processing principles. They should study Spark cluster monitoring and data integrity concepts.",
+      "correctness": "incorrect",
+      "weak_area": "Spark cluster monitoring",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to answer"
+      ],
+      "evaluation": {
+        "score": 0,
+        "strengths": [],
+        "weaknesses": [
+          "lack of knowledge",
+          "no attempt to answer"
+        ],
+        "missing_concepts": [
+          "data integrity",
+          "pipeline reliability",
+          "scalability",
+          "Spark cluster monitoring"
+        ],
+        "confidence_level": "low",
+        "correctness": "incorrect",
+        "struggle_level": "severe",
+        "feedback": "The candidate did not attempt to answer the question, showing a significant gap in knowledge of Spark cluster verification and data processing principles. They should study Spark cluster monitoring and data integrity concepts.",
+        "weak_area": "Spark cluster monitoring",
+        "ideal_answer": "To verify the correctness of a job in a Spark cluster for supply chain analytics, I would start by checking the data integrity through input validation and data quality checks. Then, I would monitor the pipeline reliability using Spark's built-in logging and metrics tools, such as the Spark UI and Ganglia. Additionally, I would ensure scalability by optimizing the job configuration, such as adjusting the number of partitions and using efficient data structures. For example, in a real-world scenario, I would use Spark's accumulator feature to track data quality metrics, such as row counts and data distribution, to detect any anomalies during the data processing pipeline."
+      }
+    },
+    {
+      "question": "How would you compare and contrast using static and interactive dashboards for business analysis in a real-world application, considering the impact on user experience, data exploration, and decision-making?",
+      "answer": "I don't know I don't know the answer",
+      "topic": "Python Development",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide any relevant information, lacking understanding of both static and interactive dashboards, and their impact on business analysis.",
+      "correctness": "incorrect",
+      "weak_area": "dashboard types",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to provide examples"
+      ],
+      "evaluation": {
+        "score": 0,
+        "strengths": [],
+        "weaknesses": [
+          "lack of knowledge",
+          "inability to provide examples"
+        ],
+        "missing_concepts": [
+          "static dashboards",
+          "interactive dashboards",
+          "user experience",
+          "data exploration",
+          "decision-making"
+        ],
+        "confidence_level": "low",
+        "correctness": "incorrect",
+        "struggle_level": "severe",
+        "feedback": "The candidate failed to provide any relevant information, lacking understanding of both static and interactive dashboards, and their impact on business analysis.",
+        "weak_area": "dashboard types",
+        "ideal_answer": "In business analysis, static dashboards are useful for presenting predefined metrics and KPIs, while interactive dashboards enable users to explore data in real-time, facilitating deeper insights and better decision-making. For instance, a company like Netflix could use interactive dashboards to analyze user engagement, allowing them to adjust their content strategy accordingly. However, static dashboards might be more suitable for presenting quarterly sales reports, where the data is less dynamic. Ultimately, the choice between static and interactive dashboards depends on the specific use case and the level of data exploration required."
+      }
+    }
+  ],
+  "questions_asked": [
+    "A customer support AI model you designed uses pre-trained CNNs for image classification. It suddenly starts misclassifying some signs of the Indian Sign Language (ISL), which is similar to the sign language model you built in the past. Walk through your reasoning to identify the possible cause of this unexpected behavior.",
+    "If you were to design an ETL pipeline on Databricks for large-scale supply chain data, how would you verify the correctness of the ETL workflow to ensure that the transformed data is accurate and reliable?",
+    "If you were designing an ETL pipeline for the supply chain data on Databricks, how would you start from first principles to ensure data integrity and pipeline reliability, considering you've optimized query performance using partitioning strategies and caching in your previous project?",
+    "How would you verify the correctness of a job in a Spark cluster, especially when it involves complex data processing and transformations for supply chain analytics? Start from first principles and consider the importance of data integrity, pipeline reliability, and scalability in your answer.",
+    "How would you compare and contrast using static and interactive dashboards for business analysis in a real-world application, considering the impact on user experience, data exploration, and decision-making?"
+  ],
+  "answers": [
+    "no I don't know the answer",
+    "no I don't know",
+    "no I don't know the answer",
+    "I don't know the answer",
+    "I don't know I don't know the answer"
+  ],
+  "evaluations": [
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to reason"
+      ],
+      "missing_concepts": [
+        "concept drift",
+        "model updating",
+        "domain adaptation"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any reasoning or potential causes for the misclassification, indicating a significant knowledge gap in machine learning model maintenance and adaptation.",
+      "weak_area": "domain adaptation",
+      "ideal_answer": "To address the sudden misclassification of Indian Sign Language signs, I would first investigate if the pre-trained CNNs are experiencing concept drift due to changes in the data distribution. I would then consider updating the model using transfer learning or domain adaptation techniques to adapt to the new sign language data. Additionally, I would analyze the data for any biases or noise that could be causing the misclassifications and retrain the model with a more diverse and representative dataset."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of ETL knowledge",
+        "no data engineering experience"
+      ],
+      "missing_concepts": [
+        "data validation",
+        "data quality checks",
+        "unit testing"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any relevant information on ETL pipeline verification, indicating a significant knowledge gap in data engineering principles and practices.",
+      "weak_area": "ETL workflow validation",
+      "ideal_answer": "To verify the correctness of an ETL workflow on Databricks, I would implement data validation checks at each stage of the pipeline, including data quality checks, data profiling, and unit testing. This would involve using tools like Apache Spark's built-in validation functions, as well as external libraries like Great Expectations. Additionally, I would use Databricks' built-in features like data lineage and data governance to track data provenance and ensure data accuracy. For example, in a supply chain ETL pipeline, I would validate the data against a set of predefined rules, such as checking for missing or duplicate values, and ensuring that the data conforms to the expected schema."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to answer"
+      ],
+      "missing_concepts": [
+        "ETL pipeline design",
+        "data integrity",
+        "pipeline reliability",
+        "Databricks"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate did not attempt to answer the question, showing a significant gap in knowledge of ETL pipeline design and data integrity on Databricks. To improve, they should study the basics of ETL pipelines and Databricks architecture.",
+      "weak_area": "ETL pipeline basics",
+      "ideal_answer": "To design an ETL pipeline for supply chain data on Databricks, I would start by defining the data sources and sinks, and then plan the data transformation and loading process. I would ensure data integrity by implementing data validation and quality checks at each stage of the pipeline, and use Databricks' built-in features such as partitioning and caching to optimize query performance. For example, I would use Apache Spark to read data from a CSV file, apply transformations and aggregations, and then write the data to a Delta Lake table, leveraging Databricks' ACID transactions for reliable data processing."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to answer"
+      ],
+      "missing_concepts": [
+        "data integrity",
+        "pipeline reliability",
+        "scalability",
+        "Spark cluster monitoring"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate did not attempt to answer the question, showing a significant gap in knowledge of Spark cluster verification and data processing principles. They should study Spark cluster monitoring and data integrity concepts.",
+      "weak_area": "Spark cluster monitoring",
+      "ideal_answer": "To verify the correctness of a job in a Spark cluster for supply chain analytics, I would start by checking the data integrity through input validation and data quality checks. Then, I would monitor the pipeline reliability using Spark's built-in logging and metrics tools, such as the Spark UI and Ganglia. Additionally, I would ensure scalability by optimizing the job configuration, such as adjusting the number of partitions and using efficient data structures. For example, in a real-world scenario, I would use Spark's accumulator feature to track data quality metrics, such as row counts and data distribution, to detect any anomalies during the data processing pipeline."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to provide examples"
+      ],
+      "missing_concepts": [
+        "static dashboards",
+        "interactive dashboards",
+        "user experience",
+        "data exploration",
+        "decision-making"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any relevant information, lacking understanding of both static and interactive dashboards, and their impact on business analysis.",
+      "weak_area": "dashboard types",
+      "ideal_answer": "In business analysis, static dashboards are useful for presenting predefined metrics and KPIs, while interactive dashboards enable users to explore data in real-time, facilitating deeper insights and better decision-making. For instance, a company like Netflix could use interactive dashboards to analyze user engagement, allowing them to adjust their content strategy accordingly. However, static dashboards might be more suitable for presenting quarterly sales reports, where the data is less dynamic. Ultimately, the choice between static and interactive dashboards depends on the specific use case and the level of data exploration required."
+    }
+  ],
+  "fingerprint_history": [
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    }
+  ],
+  "difficulty_history": [
+    "hard",
+    "hard",
+    "medium",
+    "medium",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy"
+  ],
+  "scores": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "current_question": "How would you compare and contrast using static and interactive dashboards for business analysis in a real-world application, considering the impact on user experience, data exploration, and decision-making?",
+  "current_index": 5,
+  "fingerprint": {
+    "depth": "surface",
+    "thinking_type": "rote",
+    "confidence_bias": "underconfident",
+    "learning_velocity": "slow",
+    "error_pattern": [
+      "conceptual",
+      "incomplete",
+      "misinterpretation"
+    ],
+    "consistency_score": 5
+  },
+  "weak_areas": [
+    "domain adaptation",
+    "ETL workflow validation",
+    "ETL pipeline basics",
+    "Spark cluster monitoring",
+    "dashboard types"
+  ],
+  "mentor_conversation": [
+    {
+      "role": "assistant",
+      "content": "Great work completing the interview! Now let's deepen your understanding.\n\nI've identified 5 areas, starting with domain adaptation to work through with you using Socratic questioning. I won't just give you answers — I'll guide you to discover them yourself.\n\nLet's begin with **domain adaptation**.\n\nTo start: in your own words, what do you understand about domain adaptation? Don't worry about being perfect — just tell me what you know.",
+      "timestamp": 1774767809.4917662
+    },
+    {
+      "role": "assistant",
+      "content": "Just checking in — we were working on **domain adaptation**. Take your time! When you're ready, can you walk me through what you know about domain adaptation?",
+      "timestamp": 1774767824.504744,
+      "is_nudge": true
+    },
+    {
+      "role": "assistant",
+      "content": "Just checking in — we were working on **domain adaptation**. Take your time! When you're ready, can you walk me through what you know about domain adaptation?",
+      "timestamp": 1774767836.5290039,
+      "is_nudge": true
+    },
+    {
+      "role": "assistant",
+      "content": "Just checking in — we were working on **domain adaptation**. Take your time! When you're ready, can you walk me through what you know about domain adaptation?",
+      "timestamp": 1774767848.5449038,
+      "is_nudge": true
+    },
+    {
+      "role": "user",
+      "content": "[SKIP] Moving to next question.",
+      "timestamp": 1774767852.2520542
+    },
+    {
+      "role": "assistant",
+      "content": "Now that we've moved past domain adaptation, let's introduce the concept of ETL workflow validation. Can you think of a scenario where validating your ETL workflow would be crucial for ensuring data quality?",
+      "timestamp": 1774767853.624971
+    }
+  ],
+  "mentor_attempts": 0,
+  "mentor_focus": "ETL workflow validation",
+  "socratic_history": [
+    "[SKIP] Moving to next question."
+  ],
+  "mentor_weak_areas": [
+    "domain adaptation",
+    "ETL workflow validation",
+    "ETL pipeline basics",
+    "Spark cluster monitoring",
+    "dashboard types"
+  ],
+  "mentor_area_index": 1,
+  "mentor_area_attempts": 0,
+  "mentor_all_done": false,
+  "mentor_last_activity": 1774767852.2520542,
+  "rag_context": {
+    "chunks": [
+      "Vishu Tyagi  9634282051 | # tyagivishu618@gmail.com | ï LinkedIn | § GitHub Education Dr. B. R. Ambedkar National Institute of Technology Jalandhar Jalandhar, Punjab M.Tech in Machine Intelligence and Automation 2025 – 2027 • CGPA: 9.36/10.0 • Key Coursework : Brain-Computer Interface, Soft Computing, LabVIEW Virtual Instrumentation Maharishi University of Information Technology Lucknow, UP B.Tech in Computer Science (Specialization: Data Science) 2021 – 2025 • CGPA: 9.18/10.0 • Key Coursework : Natural Language Processing, Data Warehousing, Linux System Administration Skills & Core Foundations Programming Languages : Python, Java, R, SQL Machine Learning & AI : TensorFlow, Computer Vision, Predictive Modeling, Deep Learning Data Engineering & Big Data : Databricks, Apache Spark, PySpark, ETL Pipelines Data Analysis & Visualization : Excel, Tableau, Power BI, Statistical Analysis DBMS : MySQL, MongoDB Tools & Technologies : Git, APIs, Azure Cloud Computing Mathematical Foundations : Linear Algebra (matrix operations, vector spaces), Probability (Bayesian reasoning, distributions), Statistics (hypothesis testing, correlation, regression) Projects Supply Chain Disruption and Demand Forecasting Using Databricks | Databricks, PySpark, Azure, ETL • Build an end-to-end data pipeline on Databricks for supply chain analytics using PySpark • Implemented ETL workflows to process and transform large-scale supply chain data from multiple sources • Built automated data quality checks and monitoring dashboards to ensure data integrity and pipeline reliability • Optimized query performance using partitioning strategies and caching, reducing processing time by 40% Sign Language Detection | TensorFlow, Computer Vision, Deep Learning | [GitHub] • Developed a machine learning model to recognize sign language gestures using random forest classifier • Implemented computer vision techniques with TensorFlow for image preprocessing and feature extraction • Achieved 80% accuracy in real-time gesture recognition with focus on model optimization and performance tuning Phishing Domain Detection | Python, Machine Learning, Cybersecurity | [GitHub] • Developed a machine learning",
+      "using partitioning strategies and caching, reducing processing time by 40% Sign Language Detection | TensorFlow, Computer Vision, Deep Learning | [GitHub] • Developed a machine learning model to recognize sign language gestures using random forest classifier • Implemented computer vision techniques with TensorFlow for image preprocessing and feature extraction • Achieved 80% accuracy in real-time gesture recognition with focus on model optimization and performance tuning Phishing Domain Detection | Python, Machine Learning, Cybersecurity | [GitHub] • Developed a machine learning system to classify phishing and legitimate domains using networking-related features • Implemented multiple ML algorithms including Random Forest and SVM to improve domain classification accuracy • Enhanced knowledge of cybersecurity applications in machine learning and threat detection mechanisms Certifications & Professional Training DroneSphere Workshop : NIT Jalandhar ◦ Hands-on exposure to drone systems, control mechanisms, and autonomous flight fundamentals Data Science & Machine Learning Program : upGrad ◦ Completed during B.Tech; covered Python, statistics, machine learning fundamentals, and hands-on projects Microsoft Azure Data Fundamentals (DP-900) : Microsoft (May 2023) Better Spoken English V2 : E & ICT Academy, IIT Kanpur (June 2022) Achievements / Competitions GATE Qualified : Data Science & AI (2024 & 2025) Tech Titan Competition – 1st Prize : upGrad (October 2023) ◦ Secured first position in University-level data science competition organized by upGrad Brewing Codes Hackathon 2.0 – Runner Up : MUIT (April 2024) ◦ Achieved runner-up position among 150 teams in competitive hackathon organized by upGrad Half Marathon 2.0 : NITJ (Feb 2026) ◦ Successfully completed an 8 km Marathon during the NIT Jalandhar (NITJ) campus event & received an official T-shirt",
+      "2.0 – Runner Up : MUIT (April 2024) ◦ Achieved runner-up position among 150 teams in competitive hackathon organized by upGrad Half Marathon 2.0 : NITJ (Feb 2026) ◦ Successfully completed an 8 km Marathon during the NIT Jalandhar (NITJ) campus event & received an official T-shirt"
+    ],
+    "keywords": [
+      "2.0",
+      "marathon",
+      "nitj",
+      "learning",
+      "data",
+      "machine",
+      "databricks",
+      "upgrad",
+      "fundamentals",
+      "during",
+      "organized",
+      "nit",
+      "completed",
+      "hackathon",
+      "2024",
+      "supply",
+      "etl",
+      "pyspark",
+      "chain",
+      "python",
+      "model",
+      "runner-up",
+      "received",
+      "2026",
+      "150",
+      "official",
+      "runner",
+      "april",
+      "competitive"
+    ],
+    "topics": [
+      "Data Engineering",
+      "Machine Learning",
+      "Data Science",
+      "Python Development"
+    ],
+    "tfidf": {
+      "9634282051": 0.008968428584051754,
+      "python": 0.026067173372604415,
+      "statistics": 0.006516793343151104,
+      "automation": 0.008968428584051754,
+      "domain": 0.010030456113421515,
+      "10.0": 0.017936857168103507,
+      "virtual": 0.008968428584051754,
+      "40": 0.006516793343151104,
+      "statistical": 0.008968428584051754,
+      "gmail.com": 0.008968428584051754,
+      "operations": 0.008968428584051754,
+      "administration": 0.008968428584051754,
+      "cloud": 0.008968428584051754,
+      "information": 0.008968428584051754,
+      "demand": 0.008968428584051754,
+      "techniques": 0.006516793343151104,
+      "correlation": 0.008968428584051754,
+      "natural": 0.008968428584051754,
+      "monitoring": 0.008968428584051754,
+      "preprocessing": 0.006516793343151104,
+      "extraction": 0.006516793343151104,
+      "language": 0.0160367172591829,
+      "vishu": 0.008968428584051754,
+      "cybersecurity": 0.010030456113421515,
+      "implemented": 0.013033586686302208,
+      "technologies": 0.008968428584051754,
+      "disruption": 0.008968428584051754,
+      "9.36": 0.008968428584051754,
+      "tyagivishu618": 0.008968428584051754,
+      "github": 0.0160367172591829,
+      "workflows": 0.008968428584051754,
+      "azure": 0.019039847832063597,
+      "lucknow": 0.008968428584051754,
+      "regression": 0.008968428584051754,
+      "accuracy": 0.010030456113421515,
+      "automated": 0.008968428584051754,
+      "machine": 0.036097629486025934,
+      "punjab": 0.008968428584051754,
+      "visualization": 0.008968428584051754,
+      "built": 0.008968428584051754,
+      "performance": 0.009519923916031799,
+      "80": 0.006516793343151104,
+      "gestures": 0.006516793343151104,
+      "tuning": 0.006516793343151104,
+      "testing": 0.008968428584051754,
+      "deep": 0.009519923916031799,
+      "checks": 0.008968428584051754,
+      "classifier": 0.006516793343151104,
+      "key": 0.017936857168103507,
+      "computer": 0.019039847832063597,
+      "national": 0.008968428584051754,
+      "linux": 0.008968428584051754,
+      "probability": 0.008968428584051754,
+      "random": 0.010030456113421515,
+      "programming": 0.008968428584051754,
+      "reliability": 0.008968428584051754,
+      "end-to-end": 0.008968428584051754,
+      "tensorflow": 0.0160367172591829,
+      "bayesian": 0.008968428584051754,
+      "supply": 0.026905285752155256,
+      "ensure": 0.008968428584051754,
+      "vision": 0.0160367172591829,
+      "java": 0.017936857168103507,
+      "jalandhar": 0.016283346283346285,
+      "intelligence": 0.008968428584051754,
+      "databricks": 0.035873714336207015,
+      "algebra": 0.008968428584051754,
+      "recognize": 0.006516793343151104,
+      "dr.": 0.008968428584051754,
+      "git": 0.008968428584051754,
+      "technology": 0.017936857168103507,
+      "integrity": 0.008968428584051754,
+      "model": 0.026067173372604415,
+      "optimization": 0.006516793343151104,
+      "feature": 0.013033586686302208,
+      "projects": 0.006516793343151104,
+      "education": 0.008968428584051754,
+      "institute": 0.008968428584051754,
+      "real-time": 0.006516793343151104,
+      "learning": 0.04261442282917704,
+      "transform": 0.008968428584051754,
+      "recognition": 0.006516793343151104,
+      "etl": 0.026905285752155256,
+      "spaces": 0.008968428584051754,
+      "hypothesis": 0.008968428584051754,
+      "soft": 0.008968428584051754,
+      "build": 0.008968428584051754,
+      "phishing": 0.010030456113421515,
+      "ai": 0.006516793343151104,
+      "predictive": 0.008968428584051754,
+      "apis": 0.008968428584051754,
+      "optimized": 0.008968428584051754,
+      "time": 0.006516793343151104,
+      "developed": 0.013033586686302208,
+      "strategies": 0.006516793343151104,
+      "sign": 0.013033586686302208,
+      "warehousing": 0.008968428584051754,
+      "2027": 0.008968428584051754,
+      "university": 0.008968428584051754,
+      "skills": 0.008968428584051754,
+      "foundations": 0.017936857168103507,
+      "achieved": 0.01485884485884486,
+      "gesture": 0.006516793343151104,
+      "matrix": 0.008968428584051754,
+      "interface": 0.008968428584051754,
+      "vector": 0.008968428584051754,
+      "dbms": 0.008968428584051754,
+      "core": 0.008968428584051754,
+      "sources": 0.008968428584051754,
+      "forecasting": 0.008968428584051754,
+      "power": 0.008968428584051754,
+      "r.": 0.008968428584051754,
+      "tools": 0.008968428584051754,
+      "modeling": 0.008968428584051754,
+      "engineering": 0.008968428584051754,
+      "bi": 0.008968428584051754,
+      "mongodb": 0.008968428584051754,
+      "maharishi": 0.008968428584051754,
+      "brain-computer": 0.008968428584051754,
+      "data": 0.04108282623700789,
+      "caching": 0.006516793343151104,
+      "analysis": 0.017936857168103507,
+      "system": 0.006516793343151104,
+      "languages": 0.008968428584051754,
+      "multiple": 0.006516793343151104,
+      "2021": 0.008968428584051754,
+      "tyagi": 0.008968428584051754,
+      "spark": 0.008968428584051754,
+      "linear": 0.008968428584051754,
+      "ambedkar": 0.008968428584051754,
+      "computing": 0.017936857168103507,
+      "2025": 0.009519923916031799,
+      "query": 0.017936857168103507,
+      "pyspark": 0.026905285752155256,
+      "coursework": 0.017936857168103507,
+      "quality": 0.008968428584051754,
+      "mathematical": 0.008968428584051754,
+      "large-scale": 0.008968428584051754,
+      "detection": 0.01654724945657262,
+      "linkedin": 0.008968428584051754,
+      "science": 0.01654724945657262,
+      "partitioning": 0.006516793343151104,
+      "analytics": 0.008968428584051754,
+      "forest": 0.010030456113421515,
+      "pipeline": 0.017936857168103507,
+      "chain": 0.026905285752155256,
+      "9.18": 0.008968428584051754,
+      "dashboards": 0.008968428584051754,
+      "cgpa": 0.017936857168103507,
+      "m.tech": 0.008968428584051754,
+      "b.": 0.008968428584051754,
+      "processing": 0.009519923916031799,
+      "apache": 0.008968428584051754,
+      "excel": 0.008968428584051754,
+      "tableau": 0.008968428584051754,
+      "reducing": 0.006516793343151104,
+      "labview": 0.008968428584051754,
+      "pipelines": 0.008968428584051754,
+      "image": 0.006516793343151104,
+      "using": 0.022553510602334008,
+      "reasoning": 0.008968428584051754,
+      "process": 0.008968428584051754,
+      "focus": 0.006516793343151104,
+      "big": 0.008968428584051754,
+      "b.tech": 0.006516793343151104,
+      "specialization": 0.008968428584051754,
+      "mysql": 0.008968428584051754,
+      "distributions": 0.008968428584051754,
+      "instrumentation": 0.008968428584051754,
+      "sql": 0.017936857168103507,
+      "october": 0.01049306144334055,
+      "runner-up": 0.02480858865069714,
+      "achievements": 0.01049306144334055,
+      "received": 0.02480858865069714,
+      "brewing": 0.01049306144334055,
+      "1st": 0.01049306144334055,
+      "during": 0.028322251420967556,
+      "prize": 0.01049306144334055,
+      "improve": 0.01049306144334055,
+      "training": 0.0209861228866811,
+      "competition": 0.0209861228866811,
+      "certifications": 0.01049306144334055,
+      "mechanisms": 0.0209861228866811,
+      "ml": 0.01049306144334055,
+      "knowledge": 0.01049306144334055,
+      "academy": 0.01049306144334055,
+      "2.0": 0.04961717730139428,
+      "2026": 0.02480858865069714,
+      "first": 0.01049306144334055,
+      "iit": 0.01049306144334055,
+      "better": 0.01049306144334055,
+      "exposure": 0.01049306144334055,
+      "km": 0.02480858865069714,
+      "domains": 0.01049306144334055,
+      "qualified": 0.01049306144334055,
+      "classify": 0.01049306144334055,
+      "systems": 0.01049306144334055,
+      "v2": 0.01049306144334055,
+      "applications": 0.01049306144334055,
+      "150": 0.02480858865069714,
+      "classification": 0.01049306144334055,
+      "microsoft": 0.0209861228866811,
+      "official": 0.02480858865069714,
+      "runner": 0.02480858865069714,
+      "tech": 0.01049306144334055,
+      "secured": 0.01049306144334055,
+      "gate": 0.01049306144334055,
+      "april": 0.02480858865069714,
+      "kanpur": 0.01049306144334055,
+      "program": 0.01049306144334055,
+      "organized": 0.028322251420967556,
+      "fundamentals": 0.03147918433002165,
+      "nit": 0.028322251420967556,
+      "spoken": 0.01049306144334055,
+      "marathon": 0.04961717730139428,
+      "university-level": 0.01049306144334055,
+      "competitive": 0.02480858865069714,
+      "campus": 0.02480858865069714,
+      "half": 0.02480858865069714,
+      "completed": 0.028322251420967556,
+      "drone": 0.01049306144334055,
+      "2022": 0.01049306144334055,
+      "codes": 0.01049306144334055,
+      "successfully": 0.02480858865069714,
+      "t-shirt": 0.02480858865069714,
+      "professional": 0.01049306144334055,
+      "dronesphere": 0.01049306144334055,
+      "upgrad": 0.03534957696150838,
+      "among": 0.02480858865069714,
+      "june": 0.01049306144334055,
+      "hackathon": 0.028322251420967556,
+      "ict": 0.01049306144334055,
+      "control": 0.01049306144334055,
+      "covered": 0.01049306144334055,
+      "legitimate": 0.01049306144334055,
+      "flight": 0.01049306144334055,
+      "workshop": 0.01049306144334055,
+      "networking-related": 0.01049306144334055,
+      "english": 0.01049306144334055,
+      "autonomous": 0.01049306144334055,
+      "enhanced": 0.01049306144334055,
+      "teams": 0.02480858865069714,
+      "competitions": 0.01049306144334055,
+      "including": 0.01049306144334055,
+      "dp-900": 0.01049306144334055,
+      "2024": 0.028322251420967556,
+      "event": 0.02480858865069714,
+      "muit": 0.02480858865069714,
+      "titan": 0.01049306144334055,
+      "2023": 0.0209861228866811,
+      "features": 0.01049306144334055,
+      "threat": 0.01049306144334055,
+      "nitj": 0.04961717730139428,
+      "feb": 0.02480858865069714,
+      "algorithms": 0.01049306144334055,
+      "hands-on": 0.0209861228866811,
+      "svm": 0.01049306144334055
+    }
+  },
+  "pdf_used": true,
+  "pdf_text": "Vishu Tyagi  9634282051 | # tyagivishu618@gmail.com | ï LinkedIn | § GitHub Education Dr. B. R. Ambedkar National Institute of Technology Jalandhar Jalandhar, Punjab M.Tech in Machine Intelligence and Automation 2025 – 2027 • CGPA: 9.36/10.0 • Key Coursework : Brain-Computer Interface, Soft Computing, LabVIEW Virtual Instrumentation Maharishi University of Information Technology Lucknow, UP B.Tech in Computer Science (Specialization: Data Science) 2021 – 2025 • CGPA: 9.18/10.0 • Key Coursework : Natural Language Processing, Data Warehousing, Linux System Administration Skills & Core Foundations Programming Languages : Python, Java, R, SQL Machine Learning & AI : TensorFlow, Computer Vision, Predictive Modeling, Deep Learning Data Engineering & Big Data : Databricks, Apache Spark, PySpark, ETL Pipelines Data Analysis & Visualization : Excel, Tableau, Power BI, Statistical Analysis DBMS : MySQL, MongoDB Tools & Technologies : Git, APIs, Azure Cloud Computing Mathematical Foundations : Linear Algebra (matrix operations, vector spaces), Probability (Bayesian reasoning, distributions), Statistics (hypothesis testing, correlation, regression) Projects Supply Chain Disruption and Demand Forecasting Using Databricks | Databricks, PySpark, Azure, ETL • Build an end-to-end data pipeline on Databricks for supply chain analytics using PySpark • Implemented ETL workflows to process and transform large-scale supply chain data from multiple sources • Built automated data quality checks and monitoring dashboards to ensure data integrity and pipeline reliability • Optimized query performance using partitioning strategies and caching, reducing processing time by 40% Sign Language Detection | TensorFlow, Computer Vision, Deep Learning | [GitHub] • Developed a machine learning model to recognize sign language gestures using random forest classifier • Implemented computer vision techniques with TensorFlow for image preprocessing and feature extraction • Achieved 80% accuracy in real-time gesture recognition with focus on model optimization and performance tuning Phishing Domain Detection | Python, Machine Learning, Cybersecurity | [GitHub] • Developed a machine learning system to classify phishing and legitimate domains using networking-related features • Implemented multiple ML algorithms including Random Forest and SVM to improve domain classification accuracy • Enhanced knowledge of cybersecurity applications in machine learning and threat detection mechanisms Certifications & Professional Training DroneSphere Workshop : NIT Jalandhar ◦ Hands-on exposure to drone systems, control mechanisms, and autonomous flight fundamentals Data Science & Machine Learning Program : upGrad ◦ Completed during B.Tech; covered Python, statistics, machine learning fundamentals, and hands-on projects Microsoft Azure Data Fundamentals (DP-900) : Microsoft (May 2023) Better Spoken English V2 : E & ICT Academy, IIT Kanpur (June 2022) Achievements / Competitions GATE Qualified : Data Science & AI (2024 & 2025) Tech Titan Competition – 1st Prize : upGrad (October 2023) ◦ Secured first position in University-level data science competition organized by upGrad Brewing Codes Hackathon 2.0 – Runner Up : MUIT (April 2024) ◦ Achieved runner-up position among 150 teams in competitive hackathon organized by upGrad Half Marathon 2.0 : NITJ (Feb 2026) ◦ Successfully completed an 8 km Marathon during the NIT Jalandhar (NITJ) campus event & received an official T-shirt"
+}

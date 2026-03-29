@@ -1,0 +1,133 @@
+{
+  "session_id": "3e714567",
+  "created_at": "2026-03-28T19:45:29.285846+00:00",
+  "status": "active",
+  "jd_data": {
+    "role": "Data Structures Engineer",
+    "difficulty_level": "hard",
+    "topics": [
+      "Arrays and Strings",
+      "Linked Lists",
+      "Trees and Graphs"
+    ],
+    "weights": {
+      "Arrays and Strings": 4,
+      "Linked Lists": 4,
+      "Trees and Graphs": 5
+    },
+    "subtopics": {
+      "Arrays and Strings": [
+        "Dynamic Array Implementation",
+        "String Matching Algorithms",
+        "Array Rotation"
+      ],
+      "Linked Lists": [
+        "Singly Linked List",
+        "Doubly Linked List",
+        "Circular Linked List"
+      ],
+      "Trees and Graphs": [
+        "Binary Search Tree",
+        "Heap Data Structure",
+        "Graph Traversal Algorithms"
+      ]
+    }
+  },
+  "topic": "Data Structures Engineer",
+  "topics": [
+    "Arrays and Strings",
+    "Linked Lists",
+    "Trees and Graphs"
+  ],
+  "max_questions": 5,
+  "scenario_mode": "both",
+  "difficulty": "medium",
+  "history": [
+    {
+      "question": "If a user can insert and delete nodes from the middle of a doubly linked list from the security perspective, describe the operations you would implement to prevent data integrity issues and ensure that the list remains valid.",
+      "answer": "we can simply insert and delete notes from my doubling this much",
+      "topic": "Arrays and Strings",
+      "difficulty": "hard",
+      "score": 0,
+      "feedback": "The candidate failed to provide any meaningful solution to prevent data integrity issues, and their response did not demonstrate an understanding of doubly linked lists or security concerns.",
+      "correctness": "incorrect",
+      "weak_area": "node validation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of doubly linked lists",
+        "inability to address security concerns"
+      ]
+    }
+  ],
+  "questions_asked": [
+    "If a user can insert and delete nodes from the middle of a doubly linked list from the security perspective, describe the operations you would implement to prevent data integrity issues and ensure that the list remains valid.",
+    "Given a Min-Heap data structure implementation, how would you verify that the heap property holds true after insertion and deletion of nodes, assuming the current implementation might introduce bugs due to its incomplete understanding of heap property?"
+  ],
+  "answers": [
+    "we can simply insert and delete notes from my doubling this much"
+  ],
+  "evaluations": [
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of doubly linked lists",
+        "inability to address security concerns"
+      ],
+      "missing_concepts": [
+        "node validation",
+        "boundary checking",
+        "data encryption"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any meaningful solution to prevent data integrity issues, and their response did not demonstrate an understanding of doubly linked lists or security concerns.",
+      "weak_area": "node validation"
+    }
+  ],
+  "fingerprint_history": [
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete"
+      ],
+      "consistency_score": 40
+    }
+  ],
+  "difficulty_history": [
+    "hard",
+    "hard",
+    "medium"
+  ],
+  "scores": [
+    0
+  ],
+  "current_question": "Given a Min-Heap data structure implementation, how would you verify that the heap property holds true after insertion and deletion of nodes, assuming the current implementation might introduce bugs due to its incomplete understanding of heap property?",
+  "current_index": 1,
+  "fingerprint": {
+    "depth": "surface",
+    "thinking_type": "rote",
+    "confidence_bias": "underconfident",
+    "learning_velocity": "slow",
+    "error_pattern": [
+      "conceptual",
+      "incomplete"
+    ],
+    "consistency_score": 40
+  },
+  "weak_areas": [
+    "node validation"
+  ],
+  "mentor_conversation": [],
+  "mentor_attempts": 0,
+  "mentor_focus": "",
+  "socratic_history": [],
+  "rag_context": null,
+  "pdf_used": false,
+  "pdf_text": ""
+}

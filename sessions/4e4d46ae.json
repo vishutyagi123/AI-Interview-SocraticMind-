@@ -1,0 +1,691 @@
+{
+  "session_id": "4e4d46ae",
+  "created_at": "2026-03-29T03:26:03.622060+00:00",
+  "status": "complete",
+  "jd_data": {
+    "role": "Web Developer",
+    "difficulty_level": "medium",
+    "topics": [
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Database Management",
+      "Data Analysis",
+      "Leadership"
+    ],
+    "weights": {
+      "Frontend Development": 4,
+      "Backend Development": 4,
+      "Database Management": 2
+    },
+    "subtopics": {
+      "Frontend Development": [
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "Responsive Design"
+      ],
+      "Backend Development": [
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "Authentication and Authorization"
+      ],
+      "Database Management": [
+        "MongoDB",
+        "MySQL",
+        "Database Integration"
+      ]
+    }
+  },
+  "topic": "Web Developer",
+  "topics": [
+    "Web Development",
+    "Frontend Development",
+    "Backend Development",
+    "Database Management",
+    "Data Analysis",
+    "Leadership"
+  ],
+  "max_questions": 5,
+  "scenario_mode": "no",
+  "difficulty": "easy",
+  "history": [
+    {
+      "question": "Design a real-world system to handle a large-scale recommendation system using collaborative and content-based filtering, considering the integration with a Web Application built using MERN Stack for displaying real-time recommendations.",
+      "answer": "M stands for mongo DB east and Express",
+      "topic": "Web Development",
+      "difficulty": "medium",
+      "score": 2,
+      "feedback": "The candidate failed to provide a basic design for a recommendation system and misunderstood the MERN stack, they need to study collaborative and content-based filtering algorithms and their integration with web applications.",
+      "correctness": "incorrect",
+      "weak_area": "Collaborative filtering",
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of recommendation systems",
+        "inability to integrate with MERN stack"
+      ]
+    },
+    {
+      "question": "Given your experience in web development and machine learning, how would you verify a leader has effectively delegated tasks in a web application development project? Provide an example or a method to measure this leadership aspect.",
+      "answer": "I don't know",
+      "topic": "Frontend Development",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide any relevant information or attempt to address the question, indicating a significant gap in knowledge or experience regarding leadership and task delegation in web development projects.",
+      "correctness": "incorrect",
+      "weak_area": "delegation metrics",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no effort to provide an answer"
+      ]
+    },
+    {
+      "question": "If you’re given a legacy web application with complex CSS3 implementation, what steps would you take to verify the validity of the CSS3 code, and how would you ensure the integrity of the web application’s frontend, without disrupting the rest of the system during the debugging process?",
+      "answer": "bakchodi Nimit",
+      "topic": "Backend Development",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide any relevant technical information, and their response did not address the question; to improve, they should research and discuss tools like CSS Lint and browser developer tools for validating and debugging CSS3 code.",
+      "correctness": "incorrect",
+      "weak_area": "CSS validation",
+      "strengths": [],
+      "weaknesses": [
+        "irrelevant response",
+        "lack of technical detail"
+      ]
+    },
+    {
+      "question": "How would you, as a leader, ensure that the security and integrity of the web application are not compromised when delegating tasks to team members, without having to personally verify every change?",
+      "answer": "I will properly create MBC structure and stands for model V stands for view and C stand for controller",
+      "topic": "Database Management",
+      "difficulty": "easy",
+      "score": 2,
+      "feedback": "The candidate failed to address the question, instead mentioning the MVC structure which is unrelated to ensuring security and integrity when delegating tasks. They need to understand and implement proper access control, code review, and testing mechanisms.",
+      "correctness": "incorrect",
+      "weak_area": "access control",
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of security and integrity",
+        "inability to articulate a clear plan"
+      ]
+    },
+    {
+      "question": "Walk through your reasoning for verifying a secure HTML5 webpage that only loads resources from the same origin, considering the difficulty of implementing Content Security Policy (CSP) directives.",
+      "answer": "hyper text markup language",
+      "topic": "Data Analysis",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to address the question, providing an unrelated term instead of discussing how to verify a secure HTML5 webpage using Content Security Policy directives.",
+      "correctness": "incorrect",
+      "weak_area": "CSP implementation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of CSP",
+        "inability to address the question"
+      ]
+    }
+  ],
+  "questions_asked": [
+    "Design a real-world system to handle a large-scale recommendation system using collaborative and content-based filtering, considering the integration with a Web Application built using MERN Stack for displaying real-time recommendations.",
+    "Given your experience in web development and machine learning, how would you verify a leader has effectively delegated tasks in a web application development project? Provide an example or a method to measure this leadership aspect.",
+    "If you’re given a legacy web application with complex CSS3 implementation, what steps would you take to verify the validity of the CSS3 code, and how would you ensure the integrity of the web application’s frontend, without disrupting the rest of the system during the debugging process?",
+    "How would you, as a leader, ensure that the security and integrity of the web application are not compromised when delegating tasks to team members, without having to personally verify every change?",
+    "Walk through your reasoning for verifying a secure HTML5 webpage that only loads resources from the same origin, considering the difficulty of implementing Content Security Policy (CSP) directives."
+  ],
+  "answers": [
+    "M stands for mongo DB east and Express",
+    "I don't know",
+    "bakchodi Nimit",
+    "I will properly create MBC structure and stands for model V stands for view and C stand for controller",
+    "hyper text markup language"
+  ],
+  "evaluations": [
+    {
+      "score": 2,
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of recommendation systems",
+        "inability to integrate with MERN stack"
+      ],
+      "missing_concepts": [
+        "collaborative filtering",
+        "content-based filtering",
+        "real-time data processing"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide a basic design for a recommendation system and misunderstood the MERN stack, they need to study collaborative and content-based filtering algorithms and their integration with web applications.",
+      "weak_area": "Collaborative filtering",
+      "ideal_answer": "A large-scale recommendation system can be designed using a combination of collaborative and content-based filtering, where user behavior and item attributes are stored in a MongoDB database, and then processed using Node.js and Express.js to generate real-time recommendations, which are then displayed on the web application built using React.js, for example, a music streaming service can use collaborative filtering to recommend songs based on user listening history and content-based filtering to recommend songs with similar attributes such as genre or artist."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no effort to provide an answer"
+      ],
+      "missing_concepts": [
+        "delegation metrics",
+        "task management",
+        "leadership evaluation"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any relevant information or attempt to address the question, indicating a significant gap in knowledge or experience regarding leadership and task delegation in web development projects.",
+      "weak_area": "delegation metrics",
+      "ideal_answer": "To verify a leader has effectively delegated tasks, I would look for clear communication, defined roles and responsibilities, and measurable goals. For example, in a web application development project, a leader could use agile methodologies like Scrum or Kanban to track progress and delegate tasks. By monitoring metrics such as task completion rates, team velocity, and feedback from team members, a leader can assess the effectiveness of their delegation and make adjustments as needed."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "irrelevant response",
+        "lack of technical detail"
+      ],
+      "missing_concepts": [
+        "CSS3 validation tools",
+        "frontend debugging techniques"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any relevant technical information, and their response did not address the question; to improve, they should research and discuss tools like CSS Lint and browser developer tools for validating and debugging CSS3 code.",
+      "weak_area": "CSS validation",
+      "ideal_answer": "To verify the validity of CSS3 code, I would use tools like CSS Lint to check for syntax errors and best practices, and browser developer tools to inspect and debug the frontend; I would also ensure the integrity of the web application's frontend by writing unit tests and using version control to track changes, thus minimizing disruption to the rest of the system."
+    },
+    {
+      "score": 2,
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of security and integrity",
+        "inability to articulate a clear plan"
+      ],
+      "missing_concepts": [
+        "access control",
+        "code review",
+        "testing and validation"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to address the question, instead mentioning the MVC structure which is unrelated to ensuring security and integrity when delegating tasks. They need to understand and implement proper access control, code review, and testing mechanisms.",
+      "weak_area": "access control",
+      "ideal_answer": "To ensure the security and integrity of the web application, I would implement a robust access control system, where each team member has limited and role-based access to the codebase. I would also establish a thorough code review process, where changes are validated and verified by at least one other team member before deployment. Additionally, automated testing and validation would be used to catch any potential security vulnerabilities or errors, allowing me to delegate tasks with confidence."
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding of CSP",
+        "inability to address the question"
+      ],
+      "missing_concepts": [
+        "Content Security Policy",
+        "same-origin policy",
+        "resource loading"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to address the question, providing an unrelated term instead of discussing how to verify a secure HTML5 webpage using Content Security Policy directives.",
+      "weak_area": "CSP implementation",
+      "ideal_answer": "To verify a secure HTML5 webpage, I would start by implementing a Content Security Policy (CSP) that only allows resources to be loaded from the same origin, using directives like 'default-src 'self'' to restrict sources. This helps prevent cross-site scripting (XSS) attacks by limiting the sources of scripts and other resources. For example, a webpage with the policy 'Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.example.com;' would only load scripts from itself and the specified CDN, enhancing security. Regularly auditing and testing the webpage for compliance with the CSP is also crucial."
+    }
+  ],
+  "fingerprint_history": [
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation",
+        "irrelevant response"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation",
+        "irrelevant response",
+        "calculation"
+      ],
+      "consistency_score": 6
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation",
+        "irrelevant response",
+        "calculation"
+      ],
+      "consistency_score": 5
+    }
+  ],
+  "difficulty_history": [
+    "medium",
+    "medium",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy"
+  ],
+  "scores": [
+    2,
+    0,
+    0,
+    2,
+    0
+  ],
+  "current_question": "Walk through your reasoning for verifying a secure HTML5 webpage that only loads resources from the same origin, considering the difficulty of implementing Content Security Policy (CSP) directives.",
+  "current_index": 5,
+  "fingerprint": {
+    "depth": "surface",
+    "thinking_type": "rote",
+    "confidence_bias": "underconfident",
+    "learning_velocity": "slow",
+    "error_pattern": [
+      "conceptual",
+      "incomplete",
+      "misinterpretation",
+      "irrelevant response",
+      "calculation"
+    ],
+    "consistency_score": 5
+  },
+  "weak_areas": [
+    "Collaborative filtering",
+    "delegation metrics",
+    "CSS validation",
+    "access control",
+    "CSP implementation"
+  ],
+  "mentor_conversation": [
+    {
+      "role": "assistant",
+      "content": "What is the primary goal of collaborative filtering in a web development context, and how does it differ from content-based filtering?",
+      "timestamp": 1774754909.8951926
+    },
+    {
+      "role": "user",
+      "content": "actually currently I forgot",
+      "timestamp": 1774754927.7582293
+    },
+    {
+      "role": "assistant",
+      "content": "Can you think of a scenario where collaborative filtering would be more effective than content-based filtering in a web application, and what characteristics of the data would lead to this preference?",
+      "timestamp": 1774754928.200233
+    },
+    {
+      "role": "user",
+      "content": "[SKIP] Moving to next question.",
+      "timestamp": 1774754941.3731418
+    },
+    {
+      "role": "assistant",
+      "content": "Collaborative filtering is a technique used by web developers to predict a user's preferences by analyzing the behavior or preferences of similar users. The primary goal of collaborative filtering is to identify patterns in user behavior and generate recommendations based on the collective preferences of the community. It differs from content-based filtering, which focuses on the attributes of the items themselves to make recommendations. Collaborative filtering is more effective when there is a large amount of user interaction data available, and it can capture complex relationships between users and items that may not be apparent through content-based filtering alone.",
+      "timestamp": 1774754941.9544764
+    },
+    {
+      "role": "user",
+      "content": "what is machne learning",
+      "timestamp": 1774755004.0278099
+    },
+    {
+      "role": "assistant",
+      "content": "Collaborative filtering is a technique used by web developers to predict a user's preferences by analyzing the behavior or preferences of similar users, focusing on identifying patterns in user behavior to generate recommendations based on collective community preferences, differing from content-based filtering which relies on item attributes. This approach is particularly effective with large amounts of user interaction data, capturing complex user-item relationships not apparent through content-based methods.",
+      "timestamp": 1774755004.6534247
+    }
+  ],
+  "mentor_attempts": 2,
+  "mentor_focus": "Collaborative filtering",
+  "socratic_history": [
+    "actually currently I forgot",
+    "[SKIP] Moving to next question.",
+    "what is machne learning"
+  ],
+  "rag_context": {
+    "chunks": [
+      "Kartik Joshi joshikartik031@gmail.com | +91-6230182330 | github.com/enjinieokj31 | LinkedIn EDUCATION Dr B R Ambedkar National Institute of Technology Jalandhar, Punjab M.Tech – Artificial Intelligence CGPA: 7.8 / 10 Jaypee University of Information Technology Solan, Himachal Pradesh B.Tech – Computer Science & Engineering CGPA: 8.4 / 10 WORK EXPERIENCE LTI Mindtree June 2024 – August 2024 Software Developer Mumbai, India • Developed end-to-end web application projects using Java, Spring Boot and React, applying industry-standard architecture. • Built and integrated secure RESTful APIs with responsive React frontends, implementing authentication and authorization mechanisms to ensure secure data flow. Netmax Technologies December 2023 – May 2024 Intern Chandigarh, India • Developed full-stack web applications using MERN stack (MongoDB, Express.js, React.js, Node.js), implementing RESTful APIs and dynamic, responsive user interfaces to ensure smooth frontend–backend integration. • Created login systems, CRUD features, and managed data flow in the application. PROJECTS Electricity Load Forecasting using LSTM & GRU | Python, TensorFlow, Keras, Pandas, NumPy • Built a multivariate time-series forecasting model using LSTM and GRU neural networks to predict household power consumption at 24-hour and 168-hour horizons • Implemented full ML pipeline including data preprocessing, feature engineering, model training on GPU, and performance evaluation using MAE, RMSE, and MAPE, achieving high-accuracy load predictions Recommendation System Using Machine Learning | Python, Flask, Streamlit, Scikit-learn • Developed a hybrid recommendation system using collaborative and content-based filtering, deployed via Flask APIs and an interactive Streamlit web interface for real-time recommendations • Implemented the complete ML pipeline including data preprocessing, feature engineering, cosine similarity com- putation, and robust handling of missing data to deliver accurate and scalable recommendations TECHNICAL SKILLS Languages: Java, Python, JavaScript Web Development: React.js, Node.js, Angular.js, Spring Boot,Express.js, HTML5, CSS3, Tailwind CSS Machine Learning: NumPy, Pandas, Matplotlib, TensorFlow, PyTorch, Scikit-learn Databases: MongoDB, MySQL Tools: Git, GitHub, VS Code,",
+      "recommendation system using collaborative and content-based filtering, deployed via Flask APIs and an interactive Streamlit web interface for real-time recommendations • Implemented the complete ML pipeline including data preprocessing, feature engineering, cosine similarity com- putation, and robust handling of missing data to deliver accurate and scalable recommendations TECHNICAL SKILLS Languages: Java, Python, JavaScript Web Development: React.js, Node.js, Angular.js, Spring Boot,Express.js, HTML5, CSS3, Tailwind CSS Machine Learning: NumPy, Pandas, Matplotlib, TensorFlow, PyTorch, Scikit-learn Databases: MongoDB, MySQL Tools: Git, GitHub, VS Code, Postman Problem Solving: Data Structures & Algorithms (100+ problems solved on LeetCode and GFG) RESEARCH & PUBLICATION • IEEE Publication • Title: Spam Email Detection Using Machine Learning • Publication Link: https://ieeexplore.ieee.org/document/10009149 ACHIEVEMENTS & LEADERSHIP • UI/UX Web Dev Bootcamp (01/2022 - 01/2022) – Attended 19 days Bootcamp organized by Technical Club, JYC, JUIT • Captain, University Football Team – Led the university football team, demonstrating leadership, teamwork, and strategic planning skills • 100m Sprint Winner – Secured 1st position in 100-meter sprint competition, demonstrating speed, discipline, and competitive excellence • Volunteer, Young Farmers Club – Contributed to organizing sports tournaments in the area, participated in social work initiatives including planting 100+ trees"
+    ],
+    "keywords": [
+      "publication",
+      "react",
+      "model",
+      "demonstrating",
+      "leadership",
+      "bootcamp",
+      "club",
+      "100+",
+      "2022",
+      "football",
+      "sprint",
+      "developed",
+      "2024",
+      "using",
+      "data",
+      "python",
+      "web",
+      "feature",
+      "spring",
+      "java",
+      "secure",
+      "projects",
+      "implementing",
+      "load",
+      "lstm",
+      "responsive",
+      "forecasting",
+      "neural"
+    ],
+    "topics": [
+      "Web Development",
+      "Data Analysis",
+      "Leadership",
+      "Software Engineering"
+    ],
+    "tfidf": {
+      "putation": 0.005149291497975709,
+      "accurate": 0.005149291497975709,
+      "deployed": 0.005149291497975709,
+      "secure": 0.013709693769716157,
+      "lti": 0.006854846884858079,
+      "mape": 0.006854846884858079,
+      "recommendations": 0.010298582995951417,
+      "technical": 0.008274291497975709,
+      "mongodb": 0.007173582995951417,
+      "managed": 0.006854846884858079,
+      "projects": 0.013709693769716157,
+      "+91-6230182330": 0.006854846884858079,
+      "himachal": 0.006854846884858079,
+      "developer": 0.006854846884858079,
+      "cosine": 0.005149291497975709,
+      "development": 0.005149291497975709,
+      "flow.": 0.006854846884858079,
+      "168-hour": 0.006854846884858079,
+      "content-based": 0.005149291497975709,
+      "gmail.com": 0.006854846884858079,
+      "missing": 0.005149291497975709,
+      "electricity": 0.006854846884858079,
+      "scalable": 0.005149291497975709,
+      "implementing": 0.013709693769716157,
+      "data": 0.019496457489878542,
+      "languages": 0.005149291497975709,
+      "implemented": 0.007173582995951417,
+      "end-to-end": 0.006854846884858079,
+      "jalandhar": 0.006854846884858079,
+      "scikit-learn": 0.007173582995951417,
+      "features": 0.006854846884858079,
+      "deliver": 0.005149291497975709,
+      "education": 0.006854846884858079,
+      "interface": 0.005149291497975709,
+      "load": 0.013709693769716157,
+      "intelligence": 0.006854846884858079,
+      "high-accuracy": 0.006854846884858079,
+      "created": 0.006854846884858079,
+      "preprocessing": 0.007173582995951417,
+      "hybrid": 0.006854846884858079,
+      "full": 0.006854846884858079,
+      "university": 0.008274291497975709,
+      "dr": 0.006854846884858079,
+      "lstm": 0.013709693769716157,
+      "mechanisms": 0.006854846884858079,
+      "engineering": 0.009197874493927127,
+      "responsive": 0.013709693769716157,
+      "netmax": 0.006854846884858079,
+      "css3": 0.005149291497975709,
+      "architecture.": 0.006854846884858079,
+      "crud": 0.006854846884858079,
+      "software": 0.006854846884858079,
+      "information": 0.006854846884858079,
+      "science": 0.006854846884858079,
+      "react.js": 0.007173582995951417,
+      "frontends": 0.006854846884858079,
+      "jaypee": 0.006854846884858079,
+      "m.tech": 0.006854846884858079,
+      "interactive": 0.005149291497975709,
+      "august": 0.006854846884858079,
+      "joshi": 0.006854846884858079,
+      "learning": 0.010298582995951417,
+      "tools": 0.005149291497975709,
+      "react": 0.027419387539432315,
+      "model": 0.027419387539432315,
+      "pandas": 0.007173582995951417,
+      "javascript": 0.010298582995951417,
+      "authentication": 0.006854846884858079,
+      "application.": 0.006854846884858079,
+      "solan": 0.006854846884858079,
+      "forecasting": 0.013709693769716157,
+      "authorization": 0.006854846884858079,
+      "backend": 0.006854846884858079,
+      "computer": 0.006854846884858079,
+      "pradesh": 0.006854846884858079,
+      "including": 0.010298582995951417,
+      "neural": 0.013709693769716157,
+      "github.com": 0.006854846884858079,
+      "keras": 0.006854846884858079,
+      "kartik": 0.006854846884858079,
+      "login": 0.006854846884858079,
+      "robust": 0.005149291497975709,
+      "interfaces": 0.006854846884858079,
+      "handling": 0.005149291497975709,
+      "matplotlib": 0.005149291497975709,
+      "evaluation": 0.006854846884858079,
+      "mae": 0.006854846884858079,
+      "applying": 0.006854846884858079,
+      "10": 0.013709693769716157,
+      "ensure": 0.013709693769716157,
+      "training": 0.013709693769716157,
+      "systems": 0.006854846884858079,
+      "performance": 0.006854846884858079,
+      "numpy": 0.007173582995951417,
+      "css": 0.005149291497975709,
+      "pytorch": 0.005149291497975709,
+      "institute": 0.006854846884858079,
+      "collaborative": 0.005149291497975709,
+      "linkedin": 0.006854846884858079,
+      "developed": 0.020564540654574234,
+      "feature": 0.014347165991902834,
+      "spring": 0.014347165991902834,
+      "chandigarh": 0.006854846884858079,
+      "github": 0.005149291497975709,
+      "git": 0.005149291497975709,
+      "gpu": 0.006854846884858079,
+      "using": 0.02042004048582996,
+      "june": 0.006854846884858079,
+      "python": 0.018395748987854253,
+      "artificial": 0.006854846884858079,
+      "ambedkar": 0.006854846884858079,
+      "real-time": 0.005149291497975709,
+      "java": 0.014347165991902834,
+      "mumbai": 0.006854846884858079,
+      "angular.js": 0.005149291497975709,
+      "household": 0.006854846884858079,
+      "networks": 0.006854846884858079,
+      "html5": 0.005149291497975709,
+      "machine": 0.010298582995951417,
+      "complete": 0.005149291497975709,
+      "mern": 0.006854846884858079,
+      "mysql": 0.005149291497975709,
+      "rmse": 0.006854846884858079,
+      "punjab": 0.006854846884858079,
+      "flask": 0.007173582995951417,
+      "7.8": 0.006854846884858079,
+      "built": 0.013709693769716157,
+      "streamlit": 0.007173582995951417,
+      "intern": 0.006854846884858079,
+      "applications": 0.006854846884858079,
+      "gru": 0.013709693769716157,
+      "pipeline": 0.007173582995951417,
+      "technology": 0.013709693769716157,
+      "2024": 0.020564540654574234,
+      "24-hour": 0.006854846884858079,
+      "filtering": 0.005149291497975709,
+      "flow": 0.006854846884858079,
+      "b.tech": 0.006854846884858079,
+      "achieving": 0.006854846884858079,
+      "enjinieokj31": 0.006854846884858079,
+      "time-series": 0.006854846884858079,
+      "smooth": 0.006854846884858079,
+      "recommendation": 0.007173582995951417,
+      "similarity": 0.005149291497975709,
+      "databases": 0.005149291497975709,
+      "joshikartik031": 0.006854846884858079,
+      "power": 0.006854846884858079,
+      "via": 0.005149291497975709,
+      "user": 0.006854846884858079,
+      "predict": 0.006854846884858079,
+      "8.4": 0.006854846884858079,
+      "node.js": 0.007173582995951417,
+      "multivariate": 0.006854846884858079,
+      "horizons": 0.006854846884858079,
+      "ml": 0.007173582995951417,
+      "code": 0.005149291497975709,
+      "india": 0.013709693769716157,
+      "restful": 0.013709693769716157,
+      "predictions": 0.006854846884858079,
+      "cgpa": 0.013709693769716157,
+      "2023": 0.006854846884858079,
+      "skills": 0.008274291497975709,
+      "vs": 0.005149291497975709,
+      "consumption": 0.006854846884858079,
+      "integrated": 0.006854846884858079,
+      "full-stack": 0.006854846884858079,
+      "stack": 0.013709693769716157,
+      "com-": 0.005149291497975709,
+      "industry-standard": 0.006854846884858079,
+      "tensorflow": 0.007173582995951417,
+      "national": 0.006854846884858079,
+      "system": 0.007173582995951417,
+      "december": 0.006854846884858079,
+      "boot": 0.007173582995951417,
+      "dynamic": 0.006854846884858079,
+      "frontend": 0.006854846884858079,
+      "technologies": 0.006854846884858079,
+      "web": 0.017472165991902835,
+      "integration.": 0.006854846884858079,
+      "mindtree": 0.006854846884858079,
+      "express.js": 0.007173582995951417,
+      "apis": 0.009197874493927127,
+      "tailwind": 0.005149291497975709,
+      "organized": 0.010582169878499659,
+      "email": 0.010582169878499659,
+      "planting": 0.010582169878499659,
+      "demonstrating": 0.021164339756999318,
+      "dev": 0.010582169878499659,
+      "area": 0.010582169878499659,
+      "01": 0.021164339756999318,
+      "leadership": 0.021164339756999318,
+      "days": 0.010582169878499659,
+      "19": 0.010582169878499659,
+      "document": 0.010582169878499659,
+      "solving": 0.010582169878499659,
+      "attended": 0.010582169878499659,
+      "discipline": 0.010582169878499659,
+      "led": 0.010582169878499659,
+      "100-meter": 0.010582169878499659,
+      "planning": 0.010582169878499659,
+      "ui": 0.010582169878499659,
+      "leetcode": 0.010582169878499659,
+      "young": 0.010582169878499659,
+      "gfg": 0.010582169878499659,
+      "initiatives": 0.010582169878499659,
+      "competition": 0.010582169878499659,
+      "volunteer": 0.010582169878499659,
+      "bootcamp": 0.021164339756999318,
+      "research": 0.010582169878499659,
+      "problem": 0.010582169878499659,
+      "detection": 0.010582169878499659,
+      "ieeexplore.ieee.org": 0.010582169878499659,
+      "organizing": 0.010582169878499659,
+      "captain": 0.010582169878499659,
+      "excellence": 0.010582169878499659,
+      "strategic": 0.010582169878499659,
+      "tournaments": 0.010582169878499659,
+      "solved": 0.010582169878499659,
+      "100m": 0.010582169878499659,
+      "social": 0.010582169878499659,
+      "https": 0.010582169878499659,
+      "problems": 0.010582169878499659,
+      "club": 0.021164339756999318,
+      "speed": 0.010582169878499659,
+      "contributed": 0.010582169878499659,
+      "achievements": 0.010582169878499659,
+      "trees": 0.010582169878499659,
+      "winner": 0.010582169878499659,
+      "juit": 0.010582169878499659,
+      "100+": 0.021164339756999318,
+      "2022": 0.021164339756999318,
+      "participated": 0.010582169878499659,
+      "football": 0.021164339756999318,
+      "secured": 0.010582169878499659,
+      "jyc": 0.010582169878499659,
+      "spam": 0.010582169878499659,
+      "sports": 0.010582169878499659,
+      "ieee": 0.010582169878499659,
+      "ux": 0.010582169878499659,
+      "farmers": 0.010582169878499659,
+      "1st": 0.010582169878499659,
+      "competitive": 0.010582169878499659,
+      "algorithms": 0.010582169878499659,
+      "link": 0.010582169878499659,
+      "publication": 0.03174650963549897,
+      "sprint": 0.021164339756999318,
+      "structures": 0.010582169878499659,
+      "title": 0.010582169878499659,
+      "postman": 0.010582169878499659,
+      "teamwork": 0.010582169878499659,
+      "10009149": 0.010582169878499659
+    }
+  },
+  "pdf_used": true,
+  "pdf_text": "Kartik Joshi joshikartik031@gmail.com | +91-6230182330 | github.com/enjinieokj31 | LinkedIn EDUCATION Dr B R Ambedkar National Institute of Technology Jalandhar, Punjab M.Tech – Artificial Intelligence CGPA: 7.8 / 10 Jaypee University of Information Technology Solan, Himachal Pradesh B.Tech – Computer Science & Engineering CGPA: 8.4 / 10 WORK EXPERIENCE LTI Mindtree June 2024 – August 2024 Software Developer Mumbai, India • Developed end-to-end web application projects using Java, Spring Boot and React, applying industry-standard architecture. • Built and integrated secure RESTful APIs with responsive React frontends, implementing authentication and authorization mechanisms to ensure secure data flow. Netmax Technologies December 2023 – May 2024 Intern Chandigarh, India • Developed full-stack web applications using MERN stack (MongoDB, Express.js, React.js, Node.js), implementing RESTful APIs and dynamic, responsive user interfaces to ensure smooth frontend–backend integration. • Created login systems, CRUD features, and managed data flow in the application. PROJECTS Electricity Load Forecasting using LSTM & GRU | Python, TensorFlow, Keras, Pandas, NumPy • Built a multivariate time-series forecasting model using LSTM and GRU neural networks to predict household power consumption at 24-hour and 168-hour horizons • Implemented full ML pipeline including data preprocessing, feature engineering, model training on GPU, and performance evaluation using MAE, RMSE, and MAPE, achieving high-accuracy load predictions Recommendation System Using Machine Learning | Python, Flask, Streamlit, Scikit-learn • Developed a hybrid recommendation system using collaborative and content-based filtering, deployed via Flask APIs and an interactive Streamlit web interface for real-time recommendations • Implemented the complete ML pipeline including data preprocessing, feature engineering, cosine similarity com- putation, and robust handling of missing data to deliver accurate and scalable recommendations TECHNICAL SKILLS Languages: Java, Python, JavaScript Web Development: React.js, Node.js, Angular.js, Spring Boot,Express.js, HTML5, CSS3, Tailwind CSS Machine Learning: NumPy, Pandas, Matplotlib, TensorFlow, PyTorch, Scikit-learn Databases: MongoDB, MySQL Tools: Git, GitHub, VS Code, Postman Problem Solving: Data Structures & Algorithms (100+ problems solved on LeetCode and GFG) RESEARCH & PUBLICATION • IEEE Publication • Title: Spam Email Detection Using Machine Learning • Publication Link: https://ieeexplore.ieee.org/document/10009149 ACHIEVEMENTS & LEADERSHIP • UI/UX Web Dev Bootcamp (01/2022 - 01/2022) – Attended 19 days Bootcamp organized by Technical Club, JYC, JUIT • Captain, University Football Team – Led the university football team, demonstrating leadership, teamwork, and strategic planning skills • 100m Sprint Winner – Secured 1st position in 100-meter sprint competition, demonstrating speed, discipline, and competitive excellence • Volunteer, Young Farmers Club – Contributed to organizing sports tournaments in the area, participated in social work initiatives including planting 100+ trees",
+  "mentor_question_num": 3,
+  "mentor_total_qs": 3
+}

@@ -1,0 +1,399 @@
+{
+  "session_id": "647aa544",
+  "created_at": "2026-03-29T06:18:53.219945+00:00",
+  "status": "mentor",
+  "jd_data": {
+    "role": "Systems Engineer",
+    "difficulty_level": "medium",
+    "topics": [
+      "Operating Systems",
+      "Processes & Threads",
+      "Memory Management",
+      "Deadlocks",
+      "Scheduling"
+    ],
+    "weights": {
+      "Processes & Threads": 5,
+      "Memory Management": 4,
+      "Deadlocks": 3,
+      "Scheduling": 2
+    },
+    "subtopics": {
+      "Processes & Threads": [
+        "Context Switch",
+        "IPC",
+        "Thread Safety"
+      ],
+      "Memory Management": [
+        "Virtual Memory",
+        "Paging",
+        "Segmentation"
+      ],
+      "Deadlocks": [
+        "Coffman Conditions",
+        "Banker's Algorithm",
+        "Prevention"
+      ],
+      "Scheduling": [
+        "Round Robin",
+        "Priority Scheduling",
+        "FCFS"
+      ]
+    }
+  },
+  "topic": "Systems Engineer",
+  "topics": [
+    "Operating Systems",
+    "Processes & Threads",
+    "Memory Management",
+    "Deadlocks",
+    "Scheduling"
+  ],
+  "max_questions": 5,
+  "scenario_mode": "both",
+  "difficulty": "medium",
+  "history": [
+    {
+      "question": "Can you explain Context Switch and why it matters in practice?",
+      "answer": "I don't know the answer  I don't know the answer",
+      "topic": "Operating Systems",
+      "difficulty": "medium",
+      "score": 5,
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "correctness": "partially_correct",
+      "weak_area": "conceptual depth",
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "evaluation": {
+        "score": 5,
+        "strengths": [
+          "Attempted the question"
+        ],
+        "weaknesses": [
+          "Answer could be more detailed"
+        ],
+        "missing_concepts": [],
+        "confidence_level": "medium",
+        "correctness": "partially_correct",
+        "struggle_level": "mild",
+        "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+        "weak_area": "conceptual depth",
+        "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+      }
+    },
+    {
+      "question": "Can you explain Virtual Memory and why it matters in practice?",
+      "answer": "I don't know the answer",
+      "topic": "Processes & Threads",
+      "difficulty": "medium",
+      "score": 5,
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "correctness": "partially_correct",
+      "weak_area": "conceptual depth",
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "evaluation": {
+        "score": 5,
+        "strengths": [
+          "Attempted the question"
+        ],
+        "weaknesses": [
+          "Answer could be more detailed"
+        ],
+        "missing_concepts": [],
+        "confidence_level": "medium",
+        "correctness": "partially_correct",
+        "struggle_level": "mild",
+        "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+        "weak_area": "conceptual depth",
+        "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+      }
+    },
+    {
+      "question": "How does Context Switch work internally — walk me through the mechanism step by step.",
+      "answer": "I don't know the answer",
+      "topic": "Memory Management",
+      "difficulty": "medium",
+      "score": 5,
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "correctness": "partially_correct",
+      "weak_area": "conceptual depth",
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "evaluation": {
+        "score": 5,
+        "strengths": [
+          "Attempted the question"
+        ],
+        "weaknesses": [
+          "Answer could be more detailed"
+        ],
+        "missing_concepts": [],
+        "confidence_level": "medium",
+        "correctness": "partially_correct",
+        "struggle_level": "mild",
+        "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+        "weak_area": "conceptual depth",
+        "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+      }
+    },
+    {
+      "question": "How does Banker's Algorithm work internally — walk me through the mechanism step by step.",
+      "answer": "I don't only answer",
+      "topic": "Deadlocks",
+      "difficulty": "medium",
+      "score": 5,
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "correctness": "partially_correct",
+      "weak_area": "conceptual depth",
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "evaluation": {
+        "score": 5,
+        "strengths": [
+          "Attempted the question"
+        ],
+        "weaknesses": [
+          "Answer could be more detailed"
+        ],
+        "missing_concepts": [],
+        "confidence_level": "medium",
+        "correctness": "partially_correct",
+        "struggle_level": "mild",
+        "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+        "weak_area": "conceptual depth",
+        "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+      }
+    },
+    {
+      "question": "How does Prevention work internally — walk me through the mechanism step by step.",
+      "answer": "I don't know the answer",
+      "topic": "Scheduling",
+      "difficulty": "medium",
+      "score": 5,
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "correctness": "partially_correct",
+      "weak_area": "conceptual depth",
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "evaluation": {
+        "score": 5,
+        "strengths": [
+          "Attempted the question"
+        ],
+        "weaknesses": [
+          "Answer could be more detailed"
+        ],
+        "missing_concepts": [],
+        "confidence_level": "medium",
+        "correctness": "partially_correct",
+        "struggle_level": "mild",
+        "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+        "weak_area": "conceptual depth",
+        "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+      }
+    }
+  ],
+  "questions_asked": [
+    "Can you explain Context Switch and why it matters in practice?",
+    "Can you explain Virtual Memory and why it matters in practice?",
+    "How does Context Switch work internally — walk me through the mechanism step by step.",
+    "How does Banker's Algorithm work internally — walk me through the mechanism step by step.",
+    "How does Prevention work internally — walk me through the mechanism step by step."
+  ],
+  "answers": [
+    "I don't know the answer  I don't know the answer",
+    "I don't know the answer",
+    "I don't know the answer",
+    "I don't only answer",
+    "I don't know the answer"
+  ],
+  "evaluations": [
+    {
+      "score": 5,
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "missing_concepts": [],
+      "confidence_level": "medium",
+      "correctness": "partially_correct",
+      "struggle_level": "mild",
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "weak_area": "conceptual depth",
+      "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+    },
+    {
+      "score": 5,
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "missing_concepts": [],
+      "confidence_level": "medium",
+      "correctness": "partially_correct",
+      "struggle_level": "mild",
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "weak_area": "conceptual depth",
+      "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+    },
+    {
+      "score": 5,
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "missing_concepts": [],
+      "confidence_level": "medium",
+      "correctness": "partially_correct",
+      "struggle_level": "mild",
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "weak_area": "conceptual depth",
+      "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+    },
+    {
+      "score": 5,
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "missing_concepts": [],
+      "confidence_level": "medium",
+      "correctness": "partially_correct",
+      "struggle_level": "mild",
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "weak_area": "conceptual depth",
+      "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+    },
+    {
+      "score": 5,
+      "strengths": [
+        "Attempted the question"
+      ],
+      "weaknesses": [
+        "Answer could be more detailed"
+      ],
+      "missing_concepts": [],
+      "confidence_level": "medium",
+      "correctness": "partially_correct",
+      "struggle_level": "mild",
+      "feedback": "Your answer touched the concept but lacked depth on the underlying mechanism.",
+      "weak_area": "conceptual depth",
+      "ideal_answer": "A strong answer would explain the underlying mechanism, discuss relevant trade-offs, and give a concrete real-world example."
+    }
+  ],
+  "fingerprint_history": [
+    {
+      "depth": "surface",
+      "thinking_type": "logical",
+      "confidence_bias": "balanced",
+      "learning_velocity": "medium",
+      "error_pattern": [],
+      "consistency_score": 0
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "logical",
+      "confidence_bias": "balanced",
+      "learning_velocity": "medium",
+      "error_pattern": [],
+      "consistency_score": 0
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "logical",
+      "confidence_bias": "balanced",
+      "learning_velocity": "medium",
+      "error_pattern": [],
+      "consistency_score": 0
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "logical",
+      "confidence_bias": "balanced",
+      "learning_velocity": "medium",
+      "error_pattern": [],
+      "consistency_score": 0
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "logical",
+      "confidence_bias": "balanced",
+      "learning_velocity": "medium",
+      "error_pattern": [],
+      "consistency_score": 0
+    }
+  ],
+  "difficulty_history": [
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium",
+    "medium"
+  ],
+  "scores": [
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "current_question": "How does Prevention work internally — walk me through the mechanism step by step.",
+  "current_index": 5,
+  "fingerprint": {
+    "depth": "surface",
+    "thinking_type": "logical",
+    "confidence_bias": "balanced",
+    "learning_velocity": "medium",
+    "error_pattern": [],
+    "consistency_score": 0
+  },
+  "weak_areas": [
+    "conceptual depth"
+  ],
+  "mentor_conversation": [],
+  "mentor_attempts": 0,
+  "mentor_focus": "",
+  "socratic_history": [],
+  "mentor_weak_areas": [],
+  "mentor_area_index": 0,
+  "mentor_area_attempts": 0,
+  "mentor_all_done": false,
+  "mentor_last_activity": null,
+  "rag_context": null,
+  "pdf_used": false,
+  "pdf_text": ""
+}

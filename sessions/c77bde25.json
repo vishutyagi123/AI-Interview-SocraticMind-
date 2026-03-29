@@ -1,0 +1,72 @@
+{
+  "session_id": "c77bde25",
+  "created_at": "2026-03-29T06:31:19.613872+00:00",
+  "status": "active",
+  "jd_data": {
+    "role": "Full Stack Software Engineer",
+    "difficulty_level": "medium",
+    "topics": [
+      "Data Structures and Algorithms",
+      "System Design",
+      "Web Development"
+    ],
+    "weights": {
+      "Data Structures and Algorithms": 4,
+      "System Design": 5,
+      "Web Development": 4
+    },
+    "subtopics": {
+      "Data Structures and Algorithms": [
+        "Sorting",
+        "Graph Traversal",
+        "Dynamic Programming"
+      ],
+      "System Design": [
+        "Scalability",
+        "Microservices Architecture",
+        "Database Schema Design"
+      ],
+      "Web Development": [
+        "Frontend Frameworks",
+        "RESTful APIs",
+        "State Management"
+      ]
+    }
+  },
+  "topic": "Full Stack Software Engineer",
+  "topics": [
+    "Data Structures and Algorithms",
+    "System Design",
+    "Web Development"
+  ],
+  "max_questions": 10,
+  "scenario_mode": "both",
+  "difficulty": "medium",
+  "history": [],
+  "questions_asked": [
+    "Imagine a web application with sensitive user data, what edge-case scenario would you use to test its state management security from a developer's perspective?"
+  ],
+  "answers": [],
+  "evaluations": [],
+  "fingerprint_history": [],
+  "difficulty_history": [
+    "medium"
+  ],
+  "scores": [],
+  "current_question": "Imagine a web application with sensitive user data, what edge-case scenario would you use to test its state management security from a developer's perspective?",
+  "current_index": 0,
+  "fingerprint": {},
+  "weak_areas": [],
+  "mentor_conversation": [],
+  "mentor_attempts": 0,
+  "mentor_focus": "",
+  "socratic_history": [],
+  "mentor_weak_areas": [],
+  "mentor_area_index": 0,
+  "mentor_area_attempts": 0,
+  "mentor_all_done": false,
+  "mentor_last_activity": null,
+  "rag_context": null,
+  "pdf_used": false,
+  "pdf_text": ""
+}

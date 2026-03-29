@@ -1,0 +1,641 @@
+{
+  "session_id": "ebaa5a95",
+  "created_at": "2026-03-29T01:28:13.712545+00:00",
+  "status": "complete",
+  "jd_data": {
+    "role": "Machine Learning Engineer",
+    "difficulty_level": "hard",
+    "topics": [
+      "Machine Learning",
+      "Computer Vision",
+      "Automation",
+      "Data Security",
+      "Real Time Systems"
+    ],
+    "weights": {
+      "Machine Learning": 5,
+      "Computer Vision": 4,
+      "Automation": 3
+    },
+    "subtopics": {
+      "Machine Learning": [
+        "Deep Learning",
+        "Object Detection"
+      ],
+      "Computer Vision": [
+        "Image Processing",
+        "Video Streams"
+      ],
+      "Automation": [
+        "Industrial Automation",
+        "Embedded Systems"
+      ]
+    }
+  },
+  "topic": "Machine Learning Engineer",
+  "topics": [
+    "Machine Learning",
+    "Computer Vision",
+    "Automation",
+    "Data Security",
+    "Real Time Systems"
+  ],
+  "max_questions": 5,
+  "scenario_mode": "no",
+  "difficulty": "easy",
+  "history": [
+    {
+      "question": "Suppose you're designing a new data security protocol for a manufacturing plant and one of its features is to alert supervisors of potential security incidents in real-time; starting from first principles, how would you define what constitutes a 'potential security incident' using only the data available from the IoT sensors and industrial control systems?",
+      "answer": "donon",
+      "topic": "Machine Learning",
+      "difficulty": "hard",
+      "score": 0,
+      "feedback": "The candidate failed to provide a basic definition of a potential security incident, and did not mention using IoT sensor data or industrial control systems to identify incidents.",
+      "correctness": "incorrect",
+      "weak_area": "anomaly detection",
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding",
+        "no clear definition"
+      ]
+    },
+    {
+      "question": "You're implementing a deep learning-based anomaly detection model as part of a smart factory's OT security system. How would you go about verifying the model's accuracy in alerting potential security threats from industrial automation data, considering you're underconfident in its performance?",
+      "answer": "don't know",
+      "topic": "Computer Vision",
+      "difficulty": "medium",
+      "score": 0,
+      "feedback": "The candidate failed to provide any approach for verifying the model's accuracy, indicating a significant knowledge gap in machine learning model evaluation and validation.",
+      "correctness": "incorrect",
+      "weak_area": "model validation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to apply concepts"
+      ]
+    },
+    {
+      "question": "Given an Industrial Process Control System, how would you verify that a PLC (Programmable Logic Controller) program is operating within its designated constraints, using only the data available from the IoT sensors, and considering you're underconfident in its real-time performance?",
+      "answer": "don't know",
+      "topic": "Automation",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide any relevant information, lacking understanding of PLC programming and IoT sensor data analysis, and needs to study real-time system constraints.",
+      "correctness": "incorrect",
+      "weak_area": "PLC programming",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to apply concepts"
+      ]
+    },
+    {
+      "question": "How would you configure network segmentation within a factory's OT system to isolate sensitive industrial control systems from the rest of the network, considering the potential risks of uncontrolled lateral movement in case of a security incident?",
+      "answer": "don't know",
+      "topic": "Data Security",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide any relevant information on configuring network segmentation, indicating a significant knowledge gap in applying security measures to OT systems.",
+      "correctness": "incorrect",
+      "weak_area": "network segmentation",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge on network segmentation",
+        "inability to apply security concepts"
+      ]
+    },
+    {
+      "question": "Suppose you're designing an automated embedded system for a small manufacturing unit to monitor and control temperature, pressure, and humidity levels in real-time. From first principles, describe how you would ensure data consistency and integrity across the system's multiple sensors and data transmission units during a potential network outage.",
+      "answer": "don't know",
+      "topic": "Real Time Systems",
+      "difficulty": "easy",
+      "score": 0,
+      "feedback": "The candidate failed to provide any solution, indicating a major gap in understanding of data consistency and integrity in real-time systems. They should research data redundancy and error correction techniques.",
+      "correctness": "incorrect",
+      "weak_area": "data integrity protocols",
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to provide a solution"
+      ]
+    }
+  ],
+  "questions_asked": [
+    "Suppose you're designing a new data security protocol for a manufacturing plant and one of its features is to alert supervisors of potential security incidents in real-time; starting from first principles, how would you define what constitutes a 'potential security incident' using only the data available from the IoT sensors and industrial control systems?",
+    "You're implementing a deep learning-based anomaly detection model as part of a smart factory's OT security system. How would you go about verifying the model's accuracy in alerting potential security threats from industrial automation data, considering you're underconfident in its performance?",
+    "Given an Industrial Process Control System, how would you verify that a PLC (Programmable Logic Controller) program is operating within its designated constraints, using only the data available from the IoT sensors, and considering you're underconfident in its real-time performance?",
+    "How would you configure network segmentation within a factory's OT system to isolate sensitive industrial control systems from the rest of the network, considering the potential risks of uncontrolled lateral movement in case of a security incident?",
+    "Suppose you're designing an automated embedded system for a small manufacturing unit to monitor and control temperature, pressure, and humidity levels in real-time. From first principles, describe how you would ensure data consistency and integrity across the system's multiple sensors and data transmission units during a potential network outage."
+  ],
+  "answers": [
+    "donon",
+    "don't know",
+    "don't know",
+    "don't know",
+    "don't know"
+  ],
+  "evaluations": [
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of understanding",
+        "no clear definition"
+      ],
+      "missing_concepts": [
+        "anomaly detection",
+        "threshold-based alerts",
+        "machine learning models"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide a basic definition of a potential security incident, and did not mention using IoT sensor data or industrial control systems to identify incidents.",
+      "weak_area": "anomaly detection"
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to apply concepts"
+      ],
+      "missing_concepts": [
+        "cross-validation",
+        "threshold tuning",
+        "ROC-AUC metric"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any approach for verifying the model's accuracy, indicating a significant knowledge gap in machine learning model evaluation and validation.",
+      "weak_area": "model validation"
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "inability to apply concepts"
+      ],
+      "missing_concepts": [
+        "PLC programming",
+        "IoT sensor data analysis",
+        "real-time system constraints"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any relevant information, lacking understanding of PLC programming and IoT sensor data analysis, and needs to study real-time system constraints.",
+      "weak_area": "PLC programming"
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge on network segmentation",
+        "inability to apply security concepts"
+      ],
+      "missing_concepts": [
+        "VLANs",
+        "firewalls",
+        "access control lists"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any relevant information on configuring network segmentation, indicating a significant knowledge gap in applying security measures to OT systems.",
+      "weak_area": "network segmentation"
+    },
+    {
+      "score": 0,
+      "strengths": [],
+      "weaknesses": [
+        "lack of knowledge",
+        "no attempt to provide a solution"
+      ],
+      "missing_concepts": [
+        "data redundancy",
+        "sensor calibration",
+        "error correction codes",
+        "network protocol design"
+      ],
+      "confidence_level": "low",
+      "correctness": "incorrect",
+      "struggle_level": "severe",
+      "feedback": "The candidate failed to provide any solution, indicating a major gap in understanding of data consistency and integrity in real-time systems. They should research data redundancy and error correction techniques.",
+      "weak_area": "data integrity protocols"
+    }
+  ],
+  "fingerprint_history": [
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    },
+    {
+      "depth": "surface",
+      "thinking_type": "rote",
+      "confidence_bias": "underconfident",
+      "learning_velocity": "slow",
+      "error_pattern": [
+        "conceptual",
+        "incomplete",
+        "misinterpretation"
+      ],
+      "consistency_score": 5
+    }
+  ],
+  "difficulty_history": [
+    "hard",
+    "hard",
+    "medium",
+    "medium",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy",
+    "easy"
+  ],
+  "scores": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "current_question": "Suppose you're designing an automated embedded system for a small manufacturing unit to monitor and control temperature, pressure, and humidity levels in real-time. From first principles, describe how you would ensure data consistency and integrity across the system's multiple sensors and data transmission units during a potential network outage.",
+  "current_index": 5,
+  "fingerprint": {
+    "depth": "surface",
+    "thinking_type": "rote",
+    "confidence_bias": "underconfident",
+    "learning_velocity": "slow",
+    "error_pattern": [
+      "conceptual",
+      "incomplete",
+      "misinterpretation"
+    ],
+    "consistency_score": 5
+  },
+  "weak_areas": [
+    "anomaly detection",
+    "model validation",
+    "PLC programming",
+    "network segmentation",
+    "data integrity protocols"
+  ],
+  "mentor_conversation": [
+    {
+      "role": "assistant",
+      "content": "What are some common techniques used in machine learning for identifying data points that significantly differ from the rest of the data, and how do they relate to anomaly detection?",
+      "timestamp": 1774747817.413607
+    },
+    {
+      "role": "user",
+      "content": "don't know",
+      "timestamp": 1774747842.6398845
+    },
+    {
+      "role": "assistant",
+      "content": "Can you think of a scenario where the distribution of data is not Gaussian, and how would you adapt your approach to detect anomalies in such a case?",
+      "timestamp": 1774747842.950149
+    },
+    {
+      "role": "user",
+      "content": "[SKIP] Moving to next question.",
+      "timestamp": 1774747849.4827254
+    },
+    {
+      "role": "assistant",
+      "content": "Anomaly detection involves identifying data points that significantly differ from the rest of the data. Common techniques include statistical methods (e.g., Z-score, Modified Z-score), density-based methods (e.g., Local Outlier Factor (LOF), One-class SVM), and machine learning methods (e.g., Autoencoders, Isolation Forest). These techniques can be applied in various scenarios, including those with non-Gaussian distributions, by adapting the approach to the specific characteristics of the data.",
+      "timestamp": 1774747850.1511068
+    }
+  ],
+  "mentor_attempts": 2,
+  "mentor_focus": "anomaly detection",
+  "socratic_history": [
+    "don't know",
+    "[SKIP] Moving to next question."
+  ],
+  "rag_context": {
+    "chunks": [
+      "Shashank Jharaniya Dr. B. R. Ambedkar National Institute of Technology,Jalandhar,Punjab  7440989492 # shashankjharaniya@gmail.com ï linkedin.com/in/shashank-jharaniya § github.com/Shashank7440 Professional Summary M.Tech student in Machine Intelligence and Automation at Dr. B. R. Ambedkar National Institute of Technology Jalandhar (CGPA: 8.32). Completed B.Tech in Electronics and Communication Engineering from Indian Institute of Information Technology Surat (CGPA: 7.56). Knowledge of industrial automation technologies including PLC and SCADA, with interest in IT/OT integration , embedded systems , and OT cybersecurity . Skilled in Python, Node.js, SQL, and API-based systems , and passionate about working in IT/OT environments to build secure and efficient automation solutions. Relevant Coursework • Cybersecurity in Industrial Control Systems (CSICS) • Industrial Automation Systems • Object-Oriented Programming • Embedded Systems and Microcontrollers • Data Structures and Algorithms • Machine Learning Projects Apkishiksha | MongoDB, Express.js, Node.js, Socket.io • Built a secure MERN-based web application with JWT authentication and bcrypt password hashing for secure user access and data storage in MongoDB. • Implemented real-time messaging using Socket.io to enable low-latency user communication and message persistence. • Designed scalable RESTful APIs using Node.js and Express.js for educational content and user management. Accident Detection Model | Machine Learning, OpenCV, YOLOv8 • Developed a real-time accident detection system using computer vision and deep learning techniques. • Implemented YOLOv8 for object detection and classification on video streams. • Integrated an alerting pipeline to trigger real-time notifications for detected accident events. Smart Environment Monitoring and Automation System | Arduino Uno, DHT Sensor, Ultrasonic Sensor • Designed and implemented an embedded monitoring system using Arduino Uno to collect real-time temperature and distance data from multiple sensors. • Developed automation logic to control actuators (servo motor and LED) based on predefined environmental thresholds. • Implemented serial communication to transmit sensor data from the microcontroller to a Python-based monitoring application.",
+      "streams. • Integrated an alerting pipeline to trigger real-time notifications for detected accident events. Smart Environment Monitoring and Automation System | Arduino Uno, DHT Sensor, Ultrasonic Sensor • Designed and implemented an embedded monitoring system using Arduino Uno to collect real-time temperature and distance data from multiple sensors. • Developed automation logic to control actuators (servo motor and LED) based on predefined environmental thresholds. • Implemented serial communication to transmit sensor data from the microcontroller to a Python-based monitoring application. • Developed a Python dashboard for real-time visualization and logging of sensor data for system monitoring and analysis. Technical Skills Languages : C, C++, HTML, CSS, JavaScript, SQL, Matlab Developer Tools : VS Code, Git, GitHub Desktop, Postman Frameworks : React.js, Express.js, Node.js, Bootstrap Databases : MongoDB, MySQL Industrial Technologies : PLC, SCADA, Embedded Systems Achievements • Qualified the Graduate Aptitude Test in Engineering (GATE) 2025, demonstrating strong fundamentals in core engineering subjects. • Solved 200+ Data Structures & Algorithms problems, demonstrating strong problem-solving and algorithmic thinking. • Founded Apkishiksha under SSIP 2.0 and secured startup funding, leading the design and development of an educational technology platform. • Secured Top 20 rank in the International Mathematics Olympiad (school level). Role of Responsibility Indoor Games Lead 2022 – 2024 Indominous Sports Club Of IIIT Surat Management co-head 2024 Spring Fiesta Official fest of IIIT surat"
+    ],
+    "keywords": [
+      "detection",
+      "institute",
+      "learning",
+      "user",
+      "secure",
+      "machine",
+      "data",
+      "spring",
+      "demonstrating",
+      "strong",
+      "iiit",
+      "2024",
+      "secured",
+      "javascript",
+      "automation",
+      "monitoring",
+      "sensor",
+      "real-time",
+      "system",
+      "dr.",
+      "national",
+      "cybersecurity",
+      "yolov8",
+      "socket.io",
+      "cgpa",
+      "ambedkar",
+      "model"
+    ],
+    "topics": [
+      "Machine Learning",
+      "Data Security",
+      "Real Time Systems",
+      "Automation"
+    ],
+    "tfidf": {
+      "completed": 0.007661299459547265,
+      "low-latency": 0.007661299459547265,
+      "streams.": 0.005238633915104504,
+      "accident": 0.009763520792932558,
+      "access": 0.007661299459547265,
+      "detection": 0.022983898378641794,
+      "environments": 0.007661299459547265,
+      "systems": 0.014288407670760611,
+      "intelligence": 0.007661299459547265,
+      "integration": 0.007661299459547265,
+      "scada": 0.005238633915104504,
+      "shashank7440": 0.007661299459547265,
+      "b.": 0.01532259891909453,
+      "thresholds.": 0.005238633915104504,
+      "sensors.": 0.005238633915104504,
+      "monitoring": 0.018692092221503986,
+      "bcrypt": 0.007661299459547265,
+      "smart": 0.005238633915104504,
+      "shashankjharaniya": 0.007661299459547265,
+      "student": 0.007661299459547265,
+      "uno": 0.010477267830209008,
+      "institute": 0.022983898378641794,
+      "build": 0.007661299459547265,
+      "developed": 0.010477267830209008,
+      "express.js": 0.007501077354018531,
+      "collect": 0.005238633915104504,
+      "message": 0.007661299459547265,
+      "servo": 0.005238633915104504,
+      "microcontrollers": 0.007661299459547265,
+      "mern-based": 0.007661299459547265,
+      "api-based": 0.007661299459547265,
+      "relevant": 0.007661299459547265,
+      "predefined": 0.005238633915104504,
+      "technology": 0.009763520792932558,
+      "dr.": 0.01532259891909453,
+      "learning": 0.022983898378641794,
+      "national": 0.01532259891909453,
+      "educational": 0.005238633915104504,
+      "multiple": 0.005238633915104504,
+      "motor": 0.005238633915104504,
+      "computer": 0.007661299459547265,
+      "real-time": 0.017978345184227536,
+      "user": 0.022983898378641794,
+      "coursework": 0.007661299459547265,
+      "system": 0.01571590174531351,
+      "gmail.com": 0.007661299459547265,
+      "application.": 0.005238633915104504,
+      "punjab": 0.007661299459547265,
+      "projects": 0.007661299459547265,
+      "events.": 0.005238633915104504,
+      "ot": 0.022983898378641794,
+      "sensor": 0.018692092221503986,
+      "apkishiksha": 0.005238633915104504,
+      "apis": 0.007661299459547265,
+      "dht": 0.005238633915104504,
+      "distance": 0.005238633915104504,
+      "node.js": 0.009763520792932558,
+      "sql": 0.010477267830209008,
+      "technologies": 0.005238633915104504,
+      "csics": 0.007661299459547265,
+      "storage": 0.007661299459547265,
+      "solutions.": 0.007661299459547265,
+      "r.": 0.01532259891909453,
+      "jharaniya": 0.007661299459547265,
+      "linkedin.com": 0.007661299459547265,
+      "messaging": 0.007661299459547265,
+      "integrated": 0.005238633915104504,
+      "working": 0.007661299459547265,
+      "designed": 0.007501077354018531,
+      "transmit": 0.005238633915104504,
+      "vision": 0.007661299459547265,
+      "knowledge": 0.007661299459547265,
+      "detected": 0.005238633915104504,
+      "control": 0.007501077354018531,
+      "trigger": 0.005238633915104504,
+      "8.32": 0.007661299459547265,
+      "professional": 0.007661299459547265,
+      "cybersecurity": 0.01532259891909453,
+      "scalable": 0.007661299459547265,
+      "ultrasonic": 0.005238633915104504,
+      "temperature": 0.005238633915104504,
+      "communication": 0.009763520792932558,
+      "using": 0.012025964231846585,
+      "information": 0.007661299459547265,
+      "deep": 0.007661299459547265,
+      "object": 0.007661299459547265,
+      "web": 0.007661299459547265,
+      "object-oriented": 0.007661299459547265,
+      "algorithms": 0.005238633915104504,
+      "github.com": 0.007661299459547265,
+      "m.tech": 0.007661299459547265,
+      "electronics": 0.007661299459547265,
+      "programming": 0.007661299459547265,
+      "yolov8": 0.01532259891909453,
+      "pipeline": 0.005238633915104504,
+      "python": 0.010477267830209008,
+      "secure": 0.022983898378641794,
+      "environment": 0.005238633915104504,
+      "authentication": 0.007661299459547265,
+      "embedded": 0.012739711269123034,
+      "shashank": 0.007661299459547265,
+      "mongodb": 0.005238633915104504,
+      "actuators": 0.005238633915104504,
+      "serial": 0.005238633915104504,
+      "password": 0.007661299459547265,
+      "notifications": 0.005238633915104504,
+      "socket.io": 0.01532259891909453,
+      "efficient": 0.007661299459547265,
+      "content": 0.007661299459547265,
+      "cgpa": 0.01532259891909453,
+      "7440989492": 0.007661299459547265,
+      "summary": 0.007661299459547265,
+      "including": 0.007661299459547265,
+      "led": 0.005238633915104504,
+      "engineering": 0.00821482439129498,
+      "shashank-jharaniya": 0.007661299459547265,
+      "interest": 0.007661299459547265,
+      "classification": 0.007661299459547265,
+      "plc": 0.005238633915104504,
+      "passionate": 0.007661299459547265,
+      "machine": 0.022983898378641794,
+      "persistence.": 0.007661299459547265,
+      "microcontroller": 0.005238633915104504,
+      "management.": 0.007661299459547265,
+      "based": 0.005238633915104504,
+      "alerting": 0.005238633915104504,
+      "skilled": 0.007661299459547265,
+      "b.tech": 0.007661299459547265,
+      "environmental": 0.005238633915104504,
+      "implemented": 0.015002154708037061,
+      "video": 0.007661299459547265,
+      "7.56": 0.007661299459547265,
+      "enable": 0.007661299459547265,
+      "arduino": 0.010477267830209008,
+      "built": 0.007661299459547265,
+      "ambedkar": 0.01532259891909453,
+      "opencv": 0.007661299459547265,
+      "automation": 0.019527041585865115,
+      "model": 0.01532259891909453,
+      "mongodb.": 0.007661299459547265,
+      "hashing": 0.007661299459547265,
+      "jwt": 0.007661299459547265,
+      "data": 0.020954535660418015,
+      "restful": 0.007661299459547265,
+      "python-based": 0.005238633915104504,
+      "surat": 0.00821482439129498,
+      "logic": 0.005238633915104504,
+      "techniques.": 0.007661299459547265,
+      "industrial": 0.009763520792932558,
+      "jalandhar": 0.01532259891909453,
+      "indian": 0.007661299459547265,
+      "structures": 0.005238633915104504,
+      "2025": 0.010078257027142531,
+      "spring": 0.020156514054285063,
+      "2022": 0.010078257027142531,
+      "aptitude": 0.010078257027142531,
+      "frameworks": 0.010078257027142531,
+      "tools": 0.010078257027142531,
+      "technical": 0.010078257027142531,
+      "demonstrating": 0.020156514054285063,
+      "responsibility": 0.010078257027142531,
+      "git": 0.010078257027142531,
+      "postman": 0.010078257027142531,
+      "200+": 0.010078257027142531,
+      "subjects.": 0.010078257027142531,
+      "indoor": 0.010078257027142531,
+      "strong": 0.020156514054285063,
+      "ssip": 0.010078257027142531,
+      "css": 0.010078257027142531,
+      "olympiad": 0.010078257027142531,
+      "languages": 0.010078257027142531,
+      "iiit": 0.020156514054285063,
+      "indominous": 0.010078257027142531,
+      "achievements": 0.010078257027142531,
+      "visualization": 0.010078257027142531,
+      "bootstrap": 0.010078257027142531,
+      "core": 0.010078257027142531,
+      "qualified": 0.010078257027142531,
+      "problem-solving": 0.010078257027142531,
+      "fest": 0.010078257027142531,
+      "gate": 0.010078257027142531,
+      "sports": 0.010078257027142531,
+      "rank": 0.010078257027142531,
+      "2024": 0.020156514054285063,
+      "club": 0.010078257027142531,
+      "test": 0.010078257027142531,
+      "fiesta": 0.010078257027142531,
+      "matlab": 0.010078257027142531,
+      "design": 0.010078257027142531,
+      "founded": 0.010078257027142531,
+      "school": 0.010078257027142531,
+      "developer": 0.010078257027142531,
+      "graduate": 0.010078257027142531,
+      "funding": 0.010078257027142531,
+      "mathematics": 0.010078257027142531,
+      "skills": 0.010078257027142531,
+      "analysis.": 0.010078257027142531,
+      "management": 0.010078257027142531,
+      "startup": 0.010078257027142531,
+      "mysql": 0.010078257027142531,
+      "secured": 0.020156514054285063,
+      "co-head": 0.010078257027142531,
+      "dashboard": 0.010078257027142531,
+      "thinking.": 0.010078257027142531,
+      "solved": 0.010078257027142531,
+      "games": 0.010078257027142531,
+      "code": 0.010078257027142531,
+      "under": 0.010078257027142531,
+      "html": 0.010078257027142531,
+      "problems": 0.010078257027142531,
+      "international": 0.010078257027142531,
+      "react.js": 0.010078257027142531,
+      "github": 0.010078257027142531,
+      "level": 0.010078257027142531,
+      "top": 0.010078257027142531,
+      "development": 0.010078257027142531,
+      "vs": 0.010078257027142531,
+      "official": 0.010078257027142531,
+      "algorithmic": 0.010078257027142531,
+      "logging": 0.010078257027142531,
+      "2.0": 0.010078257027142531,
+      "platform.": 0.010078257027142531,
+      "c++": 0.010078257027142531,
+      "leading": 0.010078257027142531,
+      "lead": 0.010078257027142531,
+      "javascript": 0.020156514054285063,
+      "databases": 0.010078257027142531,
+      "desktop": 0.010078257027142531,
+      "fundamentals": 0.010078257027142531,
+      "20": 0.010078257027142531
+    }
+  },
+  "pdf_used": true,
+  "pdf_text": "Shashank Jharaniya Dr. B. R. Ambedkar National Institute of Technology,Jalandhar,Punjab  7440989492 # shashankjharaniya@gmail.com ï linkedin.com/in/shashank-jharaniya § github.com/Shashank7440 Professional Summary M.Tech student in Machine Intelligence and Automation at Dr. B. R. Ambedkar National Institute of Technology Jalandhar (CGPA: 8.32). Completed B.Tech in Electronics and Communication Engineering from Indian Institute of Information Technology Surat (CGPA: 7.56). Knowledge of industrial automation technologies including PLC and SCADA, with interest in IT/OT integration , embedded systems , and OT cybersecurity . Skilled in Python, Node.js, SQL, and API-based systems , and passionate about working in IT/OT environments to build secure and efficient automation solutions. Relevant Coursework • Cybersecurity in Industrial Control Systems (CSICS) • Industrial Automation Systems • Object-Oriented Programming • Embedded Systems and Microcontrollers • Data Structures and Algorithms • Machine Learning Projects Apkishiksha | MongoDB, Express.js, Node.js, Socket.io • Built a secure MERN-based web application with JWT authentication and bcrypt password hashing for secure user access and data storage in MongoDB. • Implemented real-time messaging using Socket.io to enable low-latency user communication and message persistence. • Designed scalable RESTful APIs using Node.js and Express.js for educational content and user management. Accident Detection Model | Machine Learning, OpenCV, YOLOv8 • Developed a real-time accident detection system using computer vision and deep learning techniques. • Implemented YOLOv8 for object detection and classification on video streams. • Integrated an alerting pipeline to trigger real-time notifications for detected accident events. Smart Environment Monitoring and Automation System | Arduino Uno, DHT Sensor, Ultrasonic Sensor • Designed and implemented an embedded monitoring system using Arduino Uno to collect real-time temperature and distance data from multiple sensors. • Developed automation logic to control actuators (servo motor and LED) based on predefined environmental thresholds. • Implemented serial communication to transmit sensor data from the microcontroller to a Python-based monitoring application. • Developed a Python dashboard for real-time visualization and logging of sensor data for system monitoring and analysis. Technical Skills Languages : C, C++, HTML, CSS, JavaScript, SQL, Matlab Developer Tools : VS Code, Git, GitHub Desktop, Postman Frameworks : React.js, Express.js, Node.js, Bootstrap Databases : MongoDB, MySQL Industrial Technologies : PLC, SCADA, Embedded Systems Achievements • Qualified the Graduate Aptitude Test in Engineering (GATE) 2025, demonstrating strong fundamentals in core engineering subjects. • Solved 200+ Data Structures & Algorithms problems, demonstrating strong problem-solving and algorithmic thinking. • Founded Apkishiksha under SSIP 2.0 and secured startup funding, leading the design and development of an educational technology platform. • Secured Top 20 rank in the International Mathematics Olympiad (school level). Role of Responsibility Indoor Games Lead 2022 – 2024 Indominous Sports Club Of IIIT Surat Management co-head 2024 Spring Fiesta Official fest of IIIT surat",
+  "mentor_question_num": 3,
+  "mentor_total_qs": 3
+}
