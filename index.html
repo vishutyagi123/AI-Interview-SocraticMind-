@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SocraticMind - Voice Interview</title>
+
+  <!-- React UMD builds + Babel for in-browser JSX transpilation -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script>
+    async function loadApp() {
+      try {
+        if (!window.React || !window.ReactDOM || !window.Babel) {
+          throw new Error("Frontend libraries failed to load. Check internet/CDN access.");
+        }
+
+        // Fetch the user's original React component
+        const res = await fetch('/ui/app.jsx');
+        if (!res.ok) throw new Error("Failed to load app.jsx");
+        let jsxCode = await res.text();
+
+        // Convert app.jsx from ESM format to browser-global format.
+        jsxCode = jsxCode.replace(
+          /import\s+\{\s*useState\s*,\s*useEffect\s*,\s*useRef\s*,\s*useCallback\s*\}\s+from\s+["']react["'];?/,
+          "const { useState, useEffect, useRef, useCallback } = React;"
+        );
+        jsxCode = jsxCode.replace(
+          /export\s+default\s+function\s+App\s*\(/,
+          "function App("
+        );
+        jsxCode += "\nwindow.__APP_COMPONENT__ = App;";
+
+        // Compile JSX syntax into browser-readable JS.
+        const transpiled = Babel.transform(jsxCode, {
+          filename: 'app.jsx',
+          presets: [['react', { runtime: 'classic' }]]
+        }).code;
+
+        // Execute transpiled code and read exported App from window.
+        // eslint-disable-next-line no-new-func
+        new Function(transpiled)();
+        const App = window.__APP_COMPONENT__;
+        if (!App) throw new Error("App component failed to initialize.");
+
+        // Render the App
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(React.createElement(App));
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById("root").innerHTML = `<div style="color:red; padding: 20px;">Error loading React app: ${err.message}</div>`;
+      }
+    }
+
+    loadApp();
+  </script>
+</body>
+
+</html>
